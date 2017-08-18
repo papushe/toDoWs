@@ -1,0 +1,7 @@
+[2017-08-18 16:34:55.340] [INFO] logs - new toDo: { __v: 0,
+  name: 'moran',
+  date: 'Fri Aug 18 2017 16:34:55 GMT+0300 (IDT)',
+  whatToDo: 'hello every one',
+  title: 'pils',
+  _id: 5996ecffe9037c37645a9f84 } was been saved successfully
+[2017-08-18 16:34:55.342] [INFO] logs - The Api: createNewToDo called:2
