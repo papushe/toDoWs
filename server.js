@@ -20,11 +20,11 @@ app.get('/', (req,res) =>{
     res.sendFile(`${__dirname}/index.html`);
 });
 
-app.get('/getAllTest', toDo.getAllTest);
+app.get('/getAllToDo', toDo.getAllToDo);
 
 app.get('/createNewToDo/:name/:title/:whatToDo', toDo.createNewToDo);
 
-// app.get('/getAllMixes', magneto.   getAllMixes);
+// app.get('/getAllMixes', magneto.getAllMixes);
 //
 // app.get('/get/:mixName', magneto.getTracksByMixName);
 //

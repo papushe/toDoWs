@@ -19,7 +19,7 @@ let cCreateNewToDo = 0;
         res.json({"error": "404 - not found (Wrong input or Wrong url)"});
     };
 
-    exports.getAllTest = function (req, res) {
+    exports.getAllToDo = function (req, res) {
         TODO.find({}, '-__v -_id',
             (err, data) => {
                 if (err) logger.info(`query error: ${err}`);
