@@ -24,6 +24,8 @@ app.get('/getAllToDo', toDo.getAllToDo);
 
 app.get('/createNewToDo/:name/:title/:whatToDo', toDo.createNewToDo);
 
+app.get('/dropToDo/:title', toDo.dropToDo);
+
 // app.get('/getAllMixes', magneto.getAllMixes);
 //
 // app.get('/get/:mixName', magneto.getTracksByMixName);

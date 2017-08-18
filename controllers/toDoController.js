@@ -10,6 +10,7 @@ log4js.configure({
 
 let cGetAllTodo = 0;
 let cCreateNewToDo = 0;
+let cDropToDo = 0;
 
     exports.goToHome = function (req, res) {
         res.sendfile(`../${__dirname}/index.html`);
@@ -46,7 +47,15 @@ exports.createNewToDo = function (req, res) {
         }
     );
 };
-
+exports.dropToDo = function (req, res) {
+        TODO.remove({title:{$eq:req.params.title}},
+            (err,toDo) => {
+                if (err) logger.info(`query error: ${err}`);
+                else logger.info(`${toDo} was deleted successfully!`);
+                cDropToDo++;
+                logger.info(`TThe Api: dropToDo called:${cDropToDo}`);
+            });
+    };
 
 //
 //     exports.getAllMixes = function (req, res) {
