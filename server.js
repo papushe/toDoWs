@@ -2,9 +2,12 @@ const   express = require('express'),
         app = express(),
         toDo = require('./controllers/toDoController'),
         PORT   = require('./config').properties.PORT,
+        bodyParser = require('body-parser'),
         port = process.env.PORT || PORT;
 
 app.set('port',port);
+app.use(bodyParser.json()); // parsing application/json
+app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
 app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
 app.use(
