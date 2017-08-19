@@ -31,3 +31,52 @@
 [2017-08-18 17:14:20.946] [INFO] logs - The Api: createNewToDo called:1
 [2017-08-18 17:14:57.192] [INFO] logs - The Api: getAllTest called: 3
 [2017-08-18 17:15:02.542] [INFO] logs - The Api: getAllTest called: 4
+[2017-08-19 13:47:39.303] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: 'Sat Aug 19 2017 13:47:39 GMT+0300 (IDT)',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 5998174b784ff606c414152c } was been saved successfully
+[2017-08-19 13:47:39.307] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 13:48:32.575] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: 'Sat Aug 19 2017 13:48:32 GMT+0300 (IDT)',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 599817803dd05b06cac771ad } was been saved successfully
+[2017-08-19 13:48:32.577] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 13:49:11.097] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: 'Sat Aug 19 2017 13:49:10 GMT+0300 (IDT)',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 599817a6e7024206cf7ea109 } was been saved successfully
+[2017-08-19 13:49:11.098] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 13:50:00.949] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: '2056:50',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 599817d864aa6d06d68e844c } was been saved successfully
+[2017-08-19 13:50:00.950] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 13:52:01.161] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: '2056:52',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 5998185064aa6d06d68e844d } was been saved successfully
+[2017-08-19 13:52:01.162] [INFO] logs - The Api: createNewToDo called:2
+[2017-08-19 13:53:01.897] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: '19/7/201713:53',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 5998188d7e4b4406e03eabc4 } was been saved successfully
+[2017-08-19 13:53:01.899] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 13:53:31.279] [INFO] logs - new toDo: { __v: 0,
+  name: 'm',
+  date: '19/7/2017, 13:53',
+  whatToDo: 'm',
+  title: 'm',
+  _id: 599818aa44f66d06e37a5739 } was been saved successfully
+[2017-08-19 13:53:31.280] [INFO] logs - The Api: createNewToDo called:1

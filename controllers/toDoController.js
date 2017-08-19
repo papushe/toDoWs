@@ -31,10 +31,16 @@ let cDropToDo = 0;
     };
 
 exports.createNewToDo = function (req, res) {
-    let fullDate = new Date();
+    let date = new Date();
+    let dataTime = date.getDate();
+    let monthIndex = date.getMonth();
+    let year = date.getFullYear();
+    let fullDate = dataTime +'/' +  monthIndex + '/' + year;
+    let hour = date.getHours();
+    let minutes = date.getMinutes();
     let newToDO = new TODO({
         name: req.params.name,
-        date: fullDate,
+        date: fullDate + ', '+ hour + ':'+minutes,
         whatToDo: req.params.whatToDo,
         title: req.params.title
     });
@@ -57,19 +63,6 @@ exports.dropToDo = function (req, res) {
             });
     };
 
-//
-//     exports.getAllMixes = function (req, res) {
-//         MIX.find({},'-_id',
-//             (err, data) => {
-//                 if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                 cgetAllMixes++;
-//                 logger.log('magneto-stream', `The Api: getAllMixes called:${cgetAllMixes}`);
-//                 res.json(data);
-//             })
-//     };
-//
-//
-//
 // exports.getTracksByMixName = function (req, res) {
 //         MIX.find({mix_name:{$eq:req.params.mixName}},'-_id',
 //             (err,mix) => {
