@@ -25,8 +25,8 @@ app.get('/', (req,res) =>{
 
 app.get('/getAllToDo', toDo.getAllToDo);
 
-app.get('/createNewToDo/:name/:title/:whatToDo', toDo.createNewToDo);
-// app.post('/createNewToDo/', toDo.createNewToDo);
+// app.get('/createNewToDo/:name/:title/:whatToDo', toDo.createNewToDo);
+app.post('/createNewToDo/', toDo.createNewToDo);
 
 app.get('/dropToDo/:title', toDo.dropToDo);
 
