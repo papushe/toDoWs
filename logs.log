@@ -182,3 +182,29 @@
 [2017-08-19 15:59:52.938] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
 [2017-08-19 16:00:32.872] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
 [2017-08-19 16:00:32.878] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-19 16:36:12.573] [INFO] logs - {"n":1,"opTime":{"ts":"6455979111729856513","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:36:12.575] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:36:59.574] [INFO] logs - {"n":1,"opTime":{"ts":"6455979313593319426","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:36:59.574] [INFO] logs - TThe Api: dropToDo called:2
+[2017-08-19 16:38:22.650] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-19 16:38:23.143] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-19 16:40:49.755] [INFO] logs - {"n":0,"opTime":{"ts":"6455980297140830210","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:40:49.757] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:41:03.515] [INFO] logs - {"n":0,"opTime":{"ts":"6455980357270372354","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:41:03.516] [INFO] logs - TThe Api: dropToDo called:2
+[2017-08-19 16:41:43.550] [INFO] logs - {"n":0,"opTime":{"ts":"6455980529069064194","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:41:43.550] [INFO] logs - TThe Api: dropToDo called:3
+[2017-08-19 16:43:17.744] [INFO] logs - {"n":0,"opTime":{"ts":"6455980932795990018","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:43:17.746] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:44:38.513] [INFO] logs - {"n":0,"opTime":{"ts":"6455981276393373698","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:44:38.515] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:44:49.316] [INFO] logs - {"n":0,"opTime":{"ts":"6455981327932981250","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:44:49.318] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:45:04.299] [INFO] logs - {"n":0,"opTime":{"ts":"6455981388062523394","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:45:04.301] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:45:42.166] [INFO] logs - {"n":0,"opTime":{"ts":"6455981551271280642","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:45:42.168] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:46:41.878] [INFO] logs - {"n":0,"opTime":{"ts":"6455981808969318402","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:46:41.880] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 16:47:02.886] [INFO] logs - {"n":1,"opTime":{"ts":"6455981903458598914","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-19 16:47:02.888] [INFO] logs - TThe Api: dropToDo called:1

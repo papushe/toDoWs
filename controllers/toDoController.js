@@ -27,7 +27,7 @@ let cGetAllTodo = 0,
     };
 
     exports.getAllToDo = function (req, res) {
-        TODO.find({}, '-__v -_id',
+        TODO.find({},
             (err, data) => {
                 if (err) {
                     logger.info(`query error: ${err}`);
@@ -65,16 +65,23 @@ exports.createNewToDo = function (req, res) {
     );
 };
 exports.dropToDo = function (req, res) {
-        TODO.remove({title:{$eq:req.params.title}},
-            (err,toDo) => {
-                if (err) {
-                    logger.info(`query error: ${err}`);
-                    res.json(err);
-                }
-                else logger.info(`${toDo} was deleted successfully!`);
-                cDropToDo++;
-                logger.info(`TThe Api: dropToDo called:${cDropToDo}`);
-            });
+    TODO.find({title:{$eq:req.params.title}},
+        (err, data) => {
+            if (err) {
+                logger.info(`query error: ${err}`);
+                res.json(err);
+            }
+            TODO.remove({_id:{$eq:data[0]._id}},
+                (err,toDo) => {
+                    if (err) {
+                        logger.info(`query error: ${err}`);
+                        res.json(err);
+                    }
+                    else logger.info(`${toDo} was deleted successfully!`);
+                    cDropToDo++;
+                    logger.info(`TThe Api: dropToDo called:${cDropToDo}`);
+                });
+        })
     };
 
 fixTime = function(minutes){
