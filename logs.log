@@ -80,3 +80,87 @@
   title: 'm',
   _id: 599818aa44f66d06e37a5739 } was been saved successfully
 [2017-08-19 13:53:31.280] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:27:14.466] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:27',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982092be04af09dc713237 } was been saved successfully
+[2017-08-19 14:27:14.467] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:30:59.793] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:30',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982173e4c79c0a8cdeb2c7 } was been saved successfully
+[2017-08-19 14:30:59.795] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:37:51.788] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:37',
+  whatToDo: 't',
+  title: 'a',
+  _id: 5998230fc90eb20aa5f8bdbd } was been saved successfully
+[2017-08-19 14:37:51.789] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:38:08.667] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:38',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982320d882c00aa8257922 } was been saved successfully
+[2017-08-19 14:38:08.668] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:38:26.301] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:38',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982332dbc9940aac0951d7 } was been saved successfully
+[2017-08-19 14:38:26.302] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:38:51.138] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:38',
+  whatToDo: 't',
+  title: 'a',
+  _id: 5998234a102a6d0ab06392be } was been saved successfully
+[2017-08-19 14:38:51.140] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:38:58.641] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:38',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982352a93b1c0ab468f247 } was been saved successfully
+[2017-08-19 14:38:58.642] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:39:13.067] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:39',
+  whatToDo: 't',
+  title: 'a',
+  _id: 5998236057e96c0ab83af54b } was been saved successfully
+[2017-08-19 14:39:13.068] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:39:30.290] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:39',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982372b04e400abc89735b } was been saved successfully
+[2017-08-19 14:39:30.292] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:40:02.580] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:40',
+  whatToDo: 't',
+  title: 'a',
+  _id: 59982392e5e1560ac10647fe } was been saved successfully
+[2017-08-19 14:40:02.582] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:40:55.288] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:40',
+  whatToDo: 't',
+  title: 'a',
+  _id: 599823c752a8050acbe78137 } was been saved successfully
+[2017-08-19 14:40:55.289] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 14:41:18.016] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19/7/2017, 14:41',
+  whatToDo: 't',
+  title: 'a',
+  _id: 599823dd52a8050acbe78138 } was been saved successfully
+[2017-08-19 14:41:18.017] [INFO] logs - The Api: createNewToDo called:2

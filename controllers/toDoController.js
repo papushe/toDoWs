@@ -8,68 +8,56 @@ log4js.configure({
     categories: { default: { appenders: ['logs'], level: 'info' } }
 });
 
-let cGetAllTodo = 0;
-let cCreateNewToDo = 0;
-let cDropToDo = 0;
+let cGetAllTodo = 0,
+    cCreateNewToDo = 0,
+    cDropToDo = 0,
+    cHomePage = 0,
+    cErrorHandling = 0;
 
     exports.goToHome = function (req, res) {
+        cHomePage++;
+        logger.info(`Home api, called: ${cHomePage} `);
         res.sendfile(`../${__dirname}/index.html`);
     };
 
     exports.errorHandling = function (req, res) {
+        cErrorHandling++;
+        logger.info(`error 404 - not found (Wrong input or Wrong url, called: ${cErrorHandling}`);
         res.json({"error": "404 - not found (Wrong input or Wrong url)"});
     };
 
     exports.getAllToDo = function (req, res) {
         TODO.find({}, '-__v -_id',
             (err, data) => {
-                if (err) logger.info(`query error: ${err}`);
+                if (err) {
+                    logger.info(`query error: ${err}`);
+                    res.json(err);
+                }
                 cGetAllTodo++;
                 logger.info(`The Api: getAllTest called: ${cGetAllTodo}`);
                 res.json(data);
             })
     };
-
-// exports.createNewToDo = function (req, res) {
-//     let date = new Date();
-//     let dataTime = date.getDate();
-//     let monthIndex = date.getMonth();
-//     let year = date.getFullYear();
-//     let fullDate = dataTime +'/' +  monthIndex + '/' + year;
-//     let hour = date.getHours();
-//     let minutes = date.getMinutes();
-//     let newToDO = new TODO({
-//         name: req.params.name,
-//         date: fullDate + ', '+ hour + ':'+minutes,
-//         whatToDo: req.params.whatToDo,
-//         title: req.params.title
-//     });
-//     newToDO.save(
-//         (err) => {
-//             if (err) logger.info(`something went wrong - mix was not saved properly!: ${err}`);
-//             logger.info(`new toDo: ${newToDO} was been saved successfully`);
-//             cCreateNewToDo++;
-//             logger.info(`The Api: createNewToDo called:${cCreateNewToDo}`);
-//         }
-//     );
-// };
 exports.createNewToDo = function (req, res) {
-    let date = new Date();
-    let dataTime = date.getDate();
-    let monthIndex = date.getMonth();
-    let year = date.getFullYear();
-    let fullDate = dataTime +'/' +  monthIndex + '/' + year;
-    let hour = date.getHours();
-    let minutes = date.getMinutes();
-    let newToDO = new TODO({
+    let date = new Date(),
+     dataTime = date.getDate(),
+     monthIndex = date.getMonth(),
+     year = date.getFullYear(),
+     fullDate = dataTime +'/' +  monthIndex + '/' + year,
+     hour = date.getHours(),
+     minutes = date.getMinutes(),
+     newToDO = new TODO({
         name: req.body.name,
-        date: fullDate + ', '+ hour + ':'+minutes,
+        date: fullDate + ', '+ hour + ':'+fixTime(minutes),
         whatToDo: req.body.whatToDo,
         title: req.body.title
     });
     newToDO.save(
         (err) => {
-            if (err) logger.info(`something went wrong - mix was not saved properly!: ${err}`);
+            if (err) {
+                logger.info(`something went wrong - mix was not saved properly!: ${err}`);
+                res.json(err);
+            }
             logger.info(`new toDo: ${newToDO} was been saved successfully`);
             cCreateNewToDo++;
             logger.info(`The Api: createNewToDo called:${cCreateNewToDo}`);
@@ -79,12 +67,24 @@ exports.createNewToDo = function (req, res) {
 exports.dropToDo = function (req, res) {
         TODO.remove({title:{$eq:req.params.title}},
             (err,toDo) => {
-                if (err) logger.info(`query error: ${err}`);
+                if (err) {
+                    logger.info(`query error: ${err}`);
+                    res.json(err);
+                }
                 else logger.info(`${toDo} was deleted successfully!`);
                 cDropToDo++;
                 logger.info(`TThe Api: dropToDo called:${cDropToDo}`);
             });
     };
+fixTime = function(minutes){
+    if(minutes == 0){
+        return '00'
+    }else if(minutes <10 && minutes>0){
+        return '0'+minutes;
+    }
+    return minutes
+};
+
 
 // exports.getTracksByMixName = function (req, res) {
 //         MIX.find({mix_name:{$eq:req.params.mixName}},'-_id',
@@ -121,49 +121,3 @@ exports.dropToDo = function (req, res) {
 //             })
 //     };
 //
-//     exports.createNewMix = function (req, res) {
-//         let length = 0;
-//         TRACK.find({track_id:{$eq:req.params.trackId1}},
-//             (err, tracks ) => {
-//                 if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                 length = tracks[0].length;
-//                 TRACK.find({track_id:{$eq:req.params.trackId2}},
-//                     (err, tracks ) => {
-//                         if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                         length += tracks[0].length;
-//                         TRACK.find({track_id:{$eq:req.params.trackId3}},
-//                             (err, tracks ) => {
-//                                 if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                                 length += tracks[0].length;
-//                                 let fullDate = new Date();
-//                                 let newMix = new MIX({ mix_name: req.params.mixName,
-//                                     creator: req.params.creator,
-//                                     creation_date: fullDate,
-//                                     img_src: 'assets/mixTiles/mix11.jpg',
-//                                     length: length,
-//                                     tracks_id: [
-//                                         req.params.trackId1,
-//                                         req.params.trackId2,
-//                                         req.params.trackId3,
-//                                     ]});
-//                                 newMix.save(
-//                                     (err) => {
-//                                         if (err) logger.log('magneto-stream', `something went wrong - mix was not saved properly!: ${err}`);
-//                                         logger.log('magneto-stream', `new mix: ${newMix} was been saved successfully`);
-//                                         ccreateNewMix++;
-//                                         logger.log('magneto-stream', `The Api: createNewMix called:${ccreateNewMix}`);
-//                                     }
-//                                 );
-//                             });
-//                     });
-//             });
-//     };
-//     exports.dropMix = function (req, res) {
-//         MIX.remove({mix_name:{$eq:req.params.mixName}},
-//             (err,mix) => {
-//                 if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                 else console.log(`${mix} was deleted successfully!`);
-//                 cdropMix++;
-//                 logger.log('magneto-stream', `TThe Api: dropMix called:${cdropMix}`);
-//             });
-//     };
