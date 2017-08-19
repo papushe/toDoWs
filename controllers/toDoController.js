@@ -76,6 +76,7 @@ exports.dropToDo = function (req, res) {
                 logger.info(`TThe Api: dropToDo called:${cDropToDo}`);
             });
     };
+
 fixTime = function(minutes){
     if(minutes == 0){
         return '00'

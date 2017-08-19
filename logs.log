@@ -164,3 +164,21 @@
   title: 'a',
   _id: 599823dd52a8050acbe78138 } was been saved successfully
 [2017-08-19 14:41:18.017] [INFO] logs - The Api: createNewToDo called:2
+[2017-08-19 15:55:41.520] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-19 15:55:45.767] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-19 15:55:45.937] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-19 15:55:56.762] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-08-19 15:56:01.886] [INFO] logs - The Api: getAllTest called: 2
+[2017-08-19 15:56:02.330] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-08-19 15:56:40.631] [INFO] logs - The Api: getAllTest called: 3
+[2017-08-19 15:56:41.089] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-08-19 15:56:56.926] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-08-19 15:56:56.930] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-08-19 15:56:59.461] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-08-19 15:56:59.464] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-08-19 15:58:03.926] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-08-19 15:58:03.932] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-08-19 15:59:52.931] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-19 15:59:52.938] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-19 16:00:32.872] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-19 16:00:32.878] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
