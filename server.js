@@ -7,7 +7,7 @@ const   express = require('express'),
 
 app.set('port',port);
 app.use(bodyParser.json()); // parsing application/json
-// app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
 app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
 app.use(
