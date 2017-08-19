@@ -30,6 +30,29 @@ let cDropToDo = 0;
             })
     };
 
+// exports.createNewToDo = function (req, res) {
+//     let date = new Date();
+//     let dataTime = date.getDate();
+//     let monthIndex = date.getMonth();
+//     let year = date.getFullYear();
+//     let fullDate = dataTime +'/' +  monthIndex + '/' + year;
+//     let hour = date.getHours();
+//     let minutes = date.getMinutes();
+//     let newToDO = new TODO({
+//         name: req.params.name,
+//         date: fullDate + ', '+ hour + ':'+minutes,
+//         whatToDo: req.params.whatToDo,
+//         title: req.params.title
+//     });
+//     newToDO.save(
+//         (err) => {
+//             if (err) logger.info(`something went wrong - mix was not saved properly!: ${err}`);
+//             logger.info(`new toDo: ${newToDO} was been saved successfully`);
+//             cCreateNewToDo++;
+//             logger.info(`The Api: createNewToDo called:${cCreateNewToDo}`);
+//         }
+//     );
+// };
 exports.createNewToDo = function (req, res) {
     let date = new Date();
     let dataTime = date.getDate();
@@ -39,10 +62,10 @@ exports.createNewToDo = function (req, res) {
     let hour = date.getHours();
     let minutes = date.getMinutes();
     let newToDO = new TODO({
-        name: req.params.name,
+        name: req.body.name,
         date: fullDate + ', '+ hour + ':'+minutes,
-        whatToDo: req.params.whatToDo,
-        title: req.params.title
+        whatToDo: req.body.whatToDo,
+        title: req.body.title
     });
     newToDO.save(
         (err) => {
