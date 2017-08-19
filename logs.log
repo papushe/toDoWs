@@ -208,3 +208,17 @@
 [2017-08-19 16:46:41.880] [INFO] logs - TThe Api: dropToDo called:1
 [2017-08-19 16:47:02.886] [INFO] logs - {"n":1,"opTime":{"ts":"6455981903458598914","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
 [2017-08-19 16:47:02.888] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-19 17:05:24.328] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: 'function () {\n    let date = new Date(),\n        dataTime = date.getDate(),\n        monthIndex = date.getMonth(),\n        year = date.getFullYear(),\n        fullDate = dataTime +\'-\' +  monthIndex + \'-\' + year,\n        hour = date.getHours(),\n        minutes = date.getMinutes(),\n        second = date.getSeconds();\nconsole.log(fullDate + \', \'+ hour + \':\'+fixTime(minutes)+\':\'+second);\n    return fullDate + \', \'+ hour + \':\'+fixTime(minutes)+\':\'+second;\n}',
+  whatToDo: 't',
+  title: 'a',
+  _id: 599845a46e2dbd0f4b593101 } was been saved successfully
+[2017-08-19 17:05:24.329] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-19 17:06:24.350] [INFO] logs - new toDo: { __v: 0,
+  name: 'a',
+  date: '19-7-2017, 17:06:24',
+  whatToDo: 't',
+  title: 'a',
+  _id: 599845e0824d1b0f545f4988 } was been saved successfully
+[2017-08-19 17:06:24.351] [INFO] logs - The Api: createNewToDo called:1

@@ -39,23 +39,16 @@ let cGetAllTodo = 0,
             })
     };
 exports.createNewToDo = function (req, res) {
-    let date = new Date(),
-     dataTime = date.getDate(),
-     monthIndex = date.getMonth(),
-     year = date.getFullYear(),
-     fullDate = dataTime +'-' +  monthIndex + '-' + year,
-     hour = date.getHours(),
-     minutes = date.getMinutes(),
-     newToDO = new TODO({
+    let newToDO = new TODO({
         name: req.body.name,
-        date: fullDate + ', '+ hour + ':'+fixTime(minutes),
+        date: createNewDate(),
         whatToDo: req.body.whatToDo,
         title: req.body.title
     });
     newToDO.save(
         (err) => {
             if (err) {
-                logger.info(`something went wrong - mix was not saved properly!: ${err}`);
+                logger.info(`something went wrong - toDo was not saved properly!: ${err}`);
                 res.json(err);
             }
             logger.info(`new toDo: ${newToDO} was been saved successfully`);
@@ -92,7 +85,18 @@ fixTime = function(minutes){
     }
     return minutes
 };
-
+createNewDate = function () {
+    let date = new Date(),
+        dataTime = date.getDate(),
+        monthIndex = date.getMonth(),
+        year = date.getFullYear(),
+        fullDate = dataTime +'-' +  monthIndex + '-' + year,
+        hour = date.getHours(),
+        minutes = date.getMinutes(),
+        second = date.getSeconds();
+console.log(fullDate + ', '+ hour + ':'+fixTime(minutes)+':'+second);
+    return fullDate + ', '+ hour + ':'+fixTime(minutes)+':'+second;
+}
 
 // exports.getTracksByMixName = function (req, res) {
 //         MIX.find({mix_name:{$eq:req.params.mixName}},'-_id',
