@@ -40,10 +40,10 @@ let cGetAllTodo = 0,
     };
 exports.createNewToDo = function (req, res) {
     let newToDO = new TODO({
-        name: req.body.name,
+        name: req.params.name,
         date: createNewDate(),
-        whatToDo: req.body.whatToDo,
-        title: req.body.title
+        whatToDo: req.params.whatToDo,
+        title: req.params.title
     });
     newToDO.save(
         (err) => {
