@@ -1,13 +1,13 @@
 'use strict';
 const mongoose = require('mongoose'),
       schema   = mongoose.Schema,
-    toDo = new schema({
+    todo = new schema({
         name: String,
         title: String,
         date: String,
         whatToDo: String
     },{strict: true});
 
-let ToDo = mongoose.model('ToDo', toDo);
+let ToDo = mongoose.model('ToDo', todo);
 
 module.exports = ToDo;

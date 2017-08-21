@@ -1,18 +1,18 @@
-let TODO = require('../models/todo');
+let TODO = require('../models/todo'),
+    cGetAllTodo = 0,
+    cCreateNewToDo = 0,
+    cDropToDo = 0,
+    cHomePage = 0,
+    cErrorHandling = 0;
 
-const log4js = require('log4js');
-var logger = log4js.getLogger('logs');
+
+const   log4js = require('log4js'),
+        logger = log4js.getLogger('logs');
 logger.level = 'info';
 log4js.configure({
     appenders: { logs: { type: 'file', filename: 'logs.log' } },
     categories: { default: { appenders: ['logs'], level: 'info' } }
 });
-
-let cGetAllTodo = 0,
-    cCreateNewToDo = 0,
-    cDropToDo = 0,
-    cHomePage = 0,
-    cErrorHandling = 0;
 
     exports.goToHome = function (req, res) {
         cHomePage++;
@@ -78,6 +78,7 @@ exports.dropToDo = function (req, res) {
     };
 
 fixTime = function(minutes){
+    minutes = 0;
     if(minutes == 0){
         return '00'
     }else if(minutes <10 && minutes>0){
@@ -94,9 +95,8 @@ createNewDate = function () {
         hour = date.getHours(),
         minutes = date.getMinutes(),
         second = date.getSeconds();
-console.log(fullDate + ', '+ hour + ':'+fixTime(minutes)+':'+second);
     return fullDate + ', '+ hour + ':'+fixTime(minutes)+':'+second;
-}
+};
 
 // exports.getTracksByMixName = function (req, res) {
 //         MIX.find({mix_name:{$eq:req.params.mixName}},'-_id',

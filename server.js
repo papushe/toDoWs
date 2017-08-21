@@ -30,18 +30,6 @@ app.post('/createNewToDo/', toDo.createNewToDo);
 
 app.get('/dropToDo/:title', toDo.dropToDo);
 
-// app.get('/getAllMixes', magneto.getAllMixes);
-//
-// app.get('/get/:mixName', magneto.getTracksByMixName);
-//
-// app.get('/getRandomTracks/:trackCount', magneto.getRandomTracks);
-//
-// app.get('/getRandomMixes/:mixCount', magneto.getRandomMixes);
-//
-// app.get('/createNewMix/:mixName/:creator/:trackId1/:trackId2/:trackId3', magneto.createNewMix);
-//
-// app.get('/dropMix/:mixName', magneto.dropMix);
-
 app.all('*', toDo.errorHandling);
 
 app.listen(port, () => {console.log(`listening on port ${port}`);});
