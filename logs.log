@@ -295,3 +295,10 @@
   _id: 599e81b25965a11ec53e4aa3 } was been saved successfully
 [2017-08-24 10:35:15.049] [INFO] logs - The Api: createNewToDo called:2
 [2017-08-24 17:31:20.967] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 17:42:52.132] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 17:43:36.759] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-24 17:43:37.217] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-24 17:43:47.162] [INFO] logs - The Api: getAllTest called: 2
+[2017-08-24 17:43:47.631] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-08-24 17:44:17.689] [INFO] logs - The Api: getAllTest called: 3
+[2017-08-24 17:44:18.141] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4

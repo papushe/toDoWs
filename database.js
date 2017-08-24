@@ -1,4 +1,4 @@
-const consts   = require('./config').properties.MLAB_KEY,
+const consts   = require('./config').MLAB_KEY,
     mongoose = require('mongoose');
 
 

@@ -1,7 +1,7 @@
 const   express = require('express'),
         app = express(),
         toDo = require('./controllers/toDoController'),
-        PORT   = require('./config').properties.PORT,
+        PORT   = require('./config').PORT,
         bodyParser = require('body-parser'),
         port = process.env.PORT || PORT;
 
@@ -25,7 +25,6 @@ app.get('/', (req,res) =>{
 
 app.get('/getAllToDo', toDo.getAllToDo);
 
-// app.get('/createNewToDo/:name/:title/:whatToDo', toDo.createNewToDo);
 app.post('/createNewToDo/', toDo.createNewToDo);
 
 app.get('/dropToDo/:title', toDo.dropToDo);
