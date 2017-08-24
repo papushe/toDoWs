@@ -2,3 +2,10 @@
 
 # dependencies
 /node_modules
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/preferred-vcs.xml
+.idea/toDo-ws.iml
+.idea/watcherTasks.xml
+.idea/workspace.xml

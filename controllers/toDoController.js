@@ -2,7 +2,6 @@ let TODO = require('../models/todo'),
     cGetAllTodo = 0,
     cCreateNewToDo = 0,
     cDropToDo = 0,
-    cHomePage = 0,
     cErrorHandling = 0;
 
 
@@ -72,7 +71,6 @@ exports.dropToDo = function (req, res) {
     };
 
 fixTime = function(minutes){
-    minutes = 0;
     if(minutes == 0){
         return '00'
     }else if(minutes <10 && minutes>0){
