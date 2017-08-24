@@ -20,9 +20,7 @@ app.use(
     });
 
 /* All routes  */
-app.get('/', (req,res) =>{
-    res.sendFile(`${__dirname}/index.html`);
-});
+app.get('/', toDo.goToHome);
 
 app.get('/getAllToDo', toDo.getAllToDo);
 
