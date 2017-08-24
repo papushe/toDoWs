@@ -14,12 +14,6 @@ log4js.configure({
     categories: { default: { appenders: ['logs'], level: 'info' } }
 });
 
-    exports.goToHome = function (req, res) {
-        cHomePage++;
-        logger.info(`Home api, called: ${cHomePage} `);
-        res.sendfile(`../${__dirname}/index.html`);
-    };
-
     exports.errorHandling = function (req, res) {
         cErrorHandling++;
         logger.info(`error 404 - not found (Wrong input or Wrong url, called: ${cErrorHandling}`);

@@ -20,7 +20,9 @@ app.use(
     });
 
 /* All routes  */
-app.get('/', toDo.goToHome);
+app.get('/', (req,res) =>{
+    res.sendFile(`${__dirname}/index.html`);
+});
 
 app.get('/getAllToDo', toDo.getAllToDo);
 
@@ -32,3 +34,4 @@ app.get('/dropToDo/:title', toDo.dropToDo);
 app.all('*', toDo.errorHandling);
 
 app.listen(port, () => {console.log(`listening on port ${port}`);});
+

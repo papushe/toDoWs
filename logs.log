@@ -258,3 +258,39 @@
   title: 'adcde',
   _id: 599b14ad50eae60b4ae9cee5 } was been saved successfully
 [2017-08-21 20:13:17.801] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-24 10:27:42.907] [INFO] logs - listening on port undefined
+[2017-08-24 10:27:58.072] [INFO] logs - Home api, called: 1 
+[2017-08-24 10:27:58.525] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 10:28:37.200] [INFO] logs - Home api, called: 1 
+[2017-08-24 10:28:37.553] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 10:28:54.728] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-24 10:28:55.112] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-24 10:29:15.968] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-24 10:29:16.309] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 10:29:21.589] [INFO] logs - Home api, called: 1 
+[2017-08-24 10:29:21.718] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-24 10:30:42.257] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 10:30:50.683] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-24 10:30:50.803] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-08-24 10:31:25.167] [INFO] logs - The Api: getAllTest called: 1
+[2017-08-24 10:31:30.671] [INFO] logs - The Api: getAllTest called: 2
+[2017-08-24 10:32:20.594] [INFO] logs - {"n":1,"opTime":{"ts":"6457740769875722242","t":2},"electionId":"7fffffff0000000000000002","ok":1} was deleted successfully!
+[2017-08-24 10:32:20.594] [INFO] logs - TThe Api: dropToDo called:1
+[2017-08-24 10:32:20.613] [INFO] logs - The Api: getAllTest called: 3
+[2017-08-24 10:32:29.523] [INFO] logs - The Api: getAllTest called: 4
+[2017-08-24 10:33:14.830] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-08-24 10:33:15.115] [INFO] logs - new toDo: { __v: 0,
+  name: 'f',
+  date: '24-7-2017, 10:00:14',
+  whatToDo: 'f',
+  title: 'f',
+  _id: 599e813a5965a11ec53e4aa2 } was been saved successfully
+[2017-08-24 10:33:15.115] [INFO] logs - The Api: createNewToDo called:1
+[2017-08-24 10:33:16.983] [INFO] logs - The Api: getAllTest called: 5
+[2017-08-24 10:35:15.049] [INFO] logs - new toDo: { __v: 0,
+  name: 'f',
+  date: '24-7-2017, 10:00:14',
+  whatToDo: 'f',
+  title: 'f',
+  _id: 599e81b25965a11ec53e4aa3 } was been saved successfully
+[2017-08-24 10:35:15.049] [INFO] logs - The Api: createNewToDo called:2
