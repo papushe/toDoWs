@@ -294,3 +294,4 @@
   title: 'f',
   _id: 599e81b25965a11ec53e4aa3 } was been saved successfully
 [2017-08-24 10:35:15.049] [INFO] logs - The Api: createNewToDo called:2
+[2017-08-24 17:31:20.967] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
