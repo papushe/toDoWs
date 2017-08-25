@@ -70,13 +70,14 @@ exports.dropToDo = function (req, res) {
         })
     };
 
-fixTime = function(minutes){
-    if(minutes == 0){
-        return '00'
-    }else if(minutes <10 && minutes>0){
-        return '0'+minutes;
+fixTime = function(minutes, second){
+    if(second < 10 && second >= 0){
+        second = '0'+second;
     }
-    return minutes
+    if(minutes < 10 && minutes >= 0){
+        minutes = '0'+minutes;
+    }
+    return minutes+':'+second;
 };
 createNewDate = function () {
     let date = new Date(),
@@ -87,7 +88,8 @@ createNewDate = function () {
         hour = date.getHours(),
         minutes = date.getMinutes(),
         second = date.getSeconds();
-    return fullDate + ', '+ hour + ':'+fixTime(minutes)+':'+second;
+console.log(fullDate + ', '+ hour + ':'+ fixTime(minutes,second));
+    return fullDate + ', '+ hour + ':'+ fixTime(minutes,second);
 };
 
 // exports.getTracksByMixName = function (req, res) {
