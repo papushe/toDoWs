@@ -1,6 +1,9 @@
 let TODO = require('../models/todo'),
+    USER = require('../models/user'),
     cGetAllTodo = 0,
+    cLogin = 0,
     cCreateNewToDo = 0,
+    cCreateNewUser = 0,
     cDropToDo = 0,
     cErrorHandling = 0;
 
@@ -19,8 +22,51 @@ log4js.configure({
         res.json({"error": "404 - not found (Wrong input or Wrong url)"});
     };
 
+    exports.createNewUser = function (req, res) {
+        let newUser = new USER({
+            password: req.body.password,
+            userName: req.body.userName,
+            firstName: req.body.firstName,
+            lastName: req.body.lastName,
+            email: req.body.email,
+            date: createNewDate()
+        });
+        newUser.save(
+            (err, data) => {
+                if (err) {
+                    logger.info(`something went wrong - User was not create properly!: ${err}`);
+                    res.json(err);
+                }
+                res.json(data);
+                logger.info(`new User: ${newUser} was been created successfully`);
+                cCreateNewUser++;
+                logger.info(`The Api: createNewUser called: ${cCreateNewUser}`);
+            }
+        );
+    };
+    exports.createNewToDo = function (req, res) {
+    let newToDO = new TODO({
+        email: req.body.email,
+        password: req.body.password,
+        name: req.body.name,
+        date: createNewDate(),
+        whatToDo: req.body.whatToDo,
+        title: req.body.title
+    });
+    newToDO.save(
+        (err) => {
+            if (err) {
+                logger.info(`something went wrong - toDo was not saved properly!: ${err}`);
+                res.json(err);
+            }
+            logger.info(`new toDo: ${newToDO} was been saved successfully`);
+            cCreateNewToDo++;
+            logger.info(`The Api: createNewToDo called: ${cCreateNewToDo}`);
+        }
+    );
+};
     exports.getAllToDo = function (req, res) {
-        TODO.find({},
+        TODO.find({email:{$eq:req.params.email}},
             (err, data) => {
                 if (err) {
                     logger.info(`query error: ${err}`);
@@ -31,26 +77,33 @@ log4js.configure({
                 res.json(data);
             })
     };
-exports.createNewToDo = function (req, res) {
-    let newToDO = new TODO({
-        name: req.body.name, //req.params.name,
-        date: createNewDate(),
-        whatToDo: req.body.whatToDo, //req.params.whatToDo,
-        title: req.body.title //req.params.title
-    });
-    newToDO.save(
-        (err) => {
+
+    exports.login = function (req, res) {
+        USER.find({email:{$eq:req.params.email}},
+            (err, data) => {
             if (err) {
-                logger.info(`something went wrong - toDo was not saved properly!: ${err}`);
+                logger.info(`query error: ${err}`);
                 res.json(err);
+                return;
             }
-            logger.info(`new toDo: ${newToDO} was been saved successfully`);
-            cCreateNewToDo++;
-            logger.info(`The Api: createNewToDo called:${cCreateNewToDo}`);
-        }
-    );
-};
-exports.dropToDo = function (req, res) {
+            if(data.length){
+                if(data[0].email == req.params.email){
+                    if(data[0].password == req.params.password){
+                        cLogin++;
+                        logger.info(`The Api: login called: ${cLogin}`);
+                        res.json(data);
+                    } else{
+                        logger.info(`The Api: login called: ${cLogin}`);
+                        res.send({ error: 'Wrong Password' })
+                    }
+                }
+            } else {
+                res.send({ error: 'Wrong Email' })
+            }
+        })
+    };
+
+    exports.dropToDo = function (req, res) {
     TODO.find({title:{$eq:req.params.title}},
         (err, data) => {
             if (err) {
@@ -70,7 +123,16 @@ exports.dropToDo = function (req, res) {
         })
     };
 
-fixTime = function(minutes, second){
+    getRandomString =function(length) {
+    length = 10;
+    let text = "";
+    let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    for(var i = 0; i < length; i++) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+    return text;
+};
+    fixTime = function(minutes, second){
     if(second < 10 && second >= 0){
         second = '0'+second;
     }
@@ -79,7 +141,7 @@ fixTime = function(minutes, second){
     }
     return minutes+':'+second;
 };
-createNewDate = function () {
+    createNewDate = function () {
     let date = new Date(),
         dataTime = date.getDate(),
         monthIndex = date.getMonth(),

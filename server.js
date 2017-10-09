@@ -23,7 +23,11 @@ app.get('/', (req,res) =>{
     res.sendFile(`${__dirname}/index.html`);
 });
 
-app.get('/getAllToDo', toDo.getAllToDo);
+app.get('/login/:password/:email', toDo.login);
+
+app.post('/createNewUser/', toDo.createNewUser);
+
+app.get('/getAllToDo/:email', toDo.getAllToDo);
 
 app.post('/createNewToDo/', toDo.createNewToDo);
 
