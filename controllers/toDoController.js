@@ -5,6 +5,7 @@ let TODO = require('../models/todo'),
     cCreateNewToDo = 0,
     cCreateNewUser = 0,
     cDropToDo = 0,
+    cChangePassword = 0,
     cErrorHandling = 0;
 
 
@@ -16,13 +17,12 @@ log4js.configure({
     categories: { default: { appenders: ['logs'], level: 'info' } }
 });
 
-    exports.errorHandling = function (req, res) {
+    exports.errorHandling = (req, res) => {
         cErrorHandling++;
         logger.info(`error 404 - not found (Wrong input or Wrong url, called: ${cErrorHandling}`);
         res.json({"error": "404 - not found (Wrong input or Wrong url)"});
     };
-
-    exports.createNewUser = function (req, res) {
+    exports.createNewUser =  (req, res) => {
         let newUser = new USER({
             password: req.body.password,
             userName: req.body.userName,
@@ -44,11 +44,10 @@ log4js.configure({
             }
         );
     };
-    exports.createNewToDo = function (req, res) {
+    exports.createNewToDo = (req, res) => {
     let newToDO = new TODO({
         email: req.body.email,
         password: req.body.password,
-        name: req.body.name,
         date: createNewDate(),
         whatToDo: req.body.whatToDo,
         title: req.body.title
@@ -65,7 +64,7 @@ log4js.configure({
         }
     );
 };
-    exports.getAllToDo = function (req, res) {
+    exports.getAllToDo = (req, res) => {
         TODO.find({email:{$eq:req.params.email}},
             (err, data) => {
                 if (err) {
@@ -77,33 +76,60 @@ log4js.configure({
                 res.json(data);
             })
     };
-
-    exports.login = function (req, res) {
-        USER.find({email:{$eq:req.params.email}},
+    exports.changePassword = (req, res) => {
+        USER.find({email:{$eq:req.body.email}},
+            (err, data) => {
+                if (err) {
+                    logger.info(`query error: ${err}`);
+                    console.log(err);
+                    res.json(err);
+                    return;
+                }
+                if(data[0] && data[0].email == req.body.email){
+                    if(data[0].password == req.body.oldPassword){
+                        data[0].set({password : req.body.newPassword});
+                        data[0].save(
+                            (err, data) => {
+                                if (err) {
+                                    logger.info(`something went wrong - new Password was not saved properly!: ${err}`);
+                                    res.json(err);
+                                }
+                                res.json(data);
+                                cChangePassword++;
+                                logger.info(`The Api: changePassword called: ${cChangePassword}`);
+                            }
+                        );
+                    } else {
+                        res.send({ error: 'Wrong Password' })
+                    }
+                } else {
+                    res.send({ error: 'Wrong Email' })
+                }
+        })
+    };
+    exports.login = (req, res) => {
+        USER.find({email:{$eq:req.body.email}},
             (err, data) => {
             if (err) {
                 logger.info(`query error: ${err}`);
                 res.json(err);
                 return;
             }
-            if(data.length){
-                if(data[0].email == req.params.email){
-                    if(data[0].password == req.params.password){
-                        cLogin++;
-                        logger.info(`The Api: login called: ${cLogin}`);
-                        res.json(data);
-                    } else{
-                        logger.info(`The Api: login called: ${cLogin}`);
-                        res.send({ error: 'Wrong Password' })
-                    }
+            if(data[0] && data[0].email == req.body.email){
+                if(data[0].password == req.body.password){
+                    cLogin++;
+                    logger.info(`The Api: login called: ${cLogin}`);
+                    res.json(data);
+                } else {
+                    logger.info(`The Api: login called: ${cLogin}`);
+                    res.send({ error: 'Wrong Password' })
                 }
             } else {
                 res.send({ error: 'Wrong Email' })
             }
         })
     };
-
-    exports.dropToDo = function (req, res) {
+    exports.dropToDo = (req, res) => {
     TODO.find({title:{$eq:req.params.title}},
         (err, data) => {
             if (err) {
@@ -118,12 +144,12 @@ log4js.configure({
                     }
                     else logger.info(`${toDo} was deleted successfully!`);
                     cDropToDo++;
-                    logger.info(`TThe Api: dropToDo called:${cDropToDo}`);
+                    logger.info(`The Api: dropToDo called:${cDropToDo}`);
                 });
         })
     };
 
-    getRandomString =function(length) {
+    getRandomString = (length) => {
     length = 10;
     let text = "";
     let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -132,7 +158,7 @@ log4js.configure({
     }
     return text;
 };
-    fixTime = function(minutes, second){
+    fixTime = (minutes, second) => {
     if(second < 10 && second >= 0){
         second = '0'+second;
     }
@@ -141,7 +167,7 @@ log4js.configure({
     }
     return minutes+':'+second;
 };
-    createNewDate = function () {
+    createNewDate =  () => {
     let date = new Date(),
         dataTime = date.getDate(),
         monthIndex = date.getMonth(),

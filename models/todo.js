@@ -3,7 +3,6 @@ const mongoose = require('mongoose'),
       schema   = mongoose.Schema,
     todo = new schema({
         email: String,
-        name: String,
         title: String,
         date: String,
         whatToDo: String
