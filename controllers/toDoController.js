@@ -53,11 +53,12 @@ log4js.configure({
         title: req.body.title
     });
     newToDO.save(
-        (err) => {
+        (err, data) => {
             if (err) {
                 logger.info(`something went wrong - toDo was not saved properly!: ${err}`);
                 res.json(err);
             }
+            res.json(data);
             logger.info(`new toDo: ${newToDO} was been saved successfully`);
             cCreateNewToDo++;
             logger.info(`The Api: createNewToDo called: ${cCreateNewToDo}`);

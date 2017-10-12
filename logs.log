@@ -1679,3 +1679,63 @@
 [2017-10-12 10:49:57.279] [INFO] logs - The Api: dropToDo called:1
 [2017-10-12 10:49:57.451] [INFO] logs - The Api: getAllTest called: 2
 [2017-10-12 10:50:07.290] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-12 11:22:25.445] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 11:22:25.647] [INFO] logs - The Api: login called: 1
+[2017-10-12 11:22:30.070] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-12 11:22:53.865] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-12 11:22:54.066] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '12-9-2017, 11:22:53',
+  whatToDo: 'second tome here',
+  title: 'hi',
+  _id: 59df265de939e63652563131 } was been saved successfully
+[2017-10-12 11:22:54.066] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-12 11:23:53.824] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 11:24:12.439] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 11:24:12.630] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '12-9-2017, 11:24:12',
+  whatToDo: 'aaa',
+  title: 'aaa',
+  _id: 59df26acb9588a3675afb76f } was been saved successfully
+[2017-10-12 11:24:12.631] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-12 11:24:24.758] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-12 11:24:24.931] [INFO] logs - The Api: login called: 1
+[2017-10-12 11:24:25.109] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-12 11:24:39.219] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-12 11:24:39.391] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '12-9-2017, 11:24:39',
+  whatToDo: 'bb',
+  title: 'b',
+  _id: 59df26c7b9588a3675afb770 } was been saved successfully
+[2017-10-12 11:24:39.391] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-12 11:25:02.538] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-12 11:25:15.016] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-12 11:25:15.345] [INFO] logs - {"n":1,"opTime":{"ts":"6475937575646265345","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 11:25:15.346] [INFO] logs - The Api: dropToDo called:1
+[2017-10-12 11:25:15.518] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-12 11:25:17.165] [INFO] logs - {"n":1,"opTime":{"ts":"6475937584236199937","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 11:25:17.165] [INFO] logs - The Api: dropToDo called:2
+[2017-10-12 11:25:17.335] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-12 11:25:24.316] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-12 11:25:24.747] [INFO] logs - {"n":1,"opTime":{"ts":"6475937618595938305","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 11:25:24.747] [INFO] logs - The Api: dropToDo called:3
+[2017-10-12 11:25:24.915] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-12 11:25:27.849] [INFO] logs - {"n":1,"opTime":{"ts":"6475937631480840193","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 11:25:27.849] [INFO] logs - The Api: dropToDo called:4
+[2017-10-12 11:25:28.017] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-12 11:25:29.514] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-12 11:25:29.839] [INFO] logs - {"n":1,"opTime":{"ts":"6475937640070774785","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 11:25:29.839] [INFO] logs - The Api: dropToDo called:5
+[2017-10-12 11:25:30.333] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-12 11:25:41.507] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-12 11:25:41.679] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '12-9-2017, 11:25:41',
+  whatToDo: 'aaa',
+  title: 'h',
+  _id: 59df2705b9588a3675afb771 } was been saved successfully
+[2017-10-12 11:25:41.680] [INFO] logs - The Api: createNewToDo called: 3
+[2017-10-12 11:25:42.841] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-12 11:25:57.354] [INFO] logs - The Api: getAllTest called: 9
