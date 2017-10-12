@@ -1053,3 +1053,629 @@
 [2017-10-11 13:57:09.082] [INFO] logs - The Api: login called: 0
 [2017-10-11 13:57:09.722] [INFO] logs - The Api: login called: 0
 [2017-10-11 13:57:10.477] [INFO] logs - The Api: login called: 0
+[2017-10-11 14:03:35.066] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:03:35.256] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:03:35.441] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:03:42.295] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:03:42.957] [INFO] logs - {"n":1,"opTime":{"ts":"6475607318431006721","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:03:42.957] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:03:50.859] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:04:02.819] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:04:02.986] [INFO] logs - The Api: login called: 2
+[2017-10-11 14:04:03.162] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:04:41.320] [INFO] logs - {"n":1,"opTime":{"ts":"6475607571834077185","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:04:41.320] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 14:04:46.644] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 14:04:59.156] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-11 14:06:16.627] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:06:16.789] [INFO] logs - The Api: login called: 3
+[2017-10-11 14:06:16.976] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-11 14:07:19.623] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 14:07:19.788] [INFO] logs - The Api: login called: 4
+[2017-10-11 14:07:19.964] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-11 14:10:45.959] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-11 14:10:46.153] [INFO] logs - The Api: login called: 5
+[2017-10-11 14:10:46.348] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-11 14:11:29.613] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-11 14:11:29.781] [INFO] logs - The Api: login called: 6
+[2017-10-11 14:11:29.958] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-11 14:12:09.964] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-11 14:12:10.127] [INFO] logs - The Api: login called: 7
+[2017-10-11 14:12:10.299] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-11 14:12:43.193] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-11 14:12:43.360] [INFO] logs - The Api: login called: 8
+[2017-10-11 14:12:43.538] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-11 14:13:19.503] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-11 14:13:19.667] [INFO] logs - The Api: login called: 8
+[2017-10-11 14:13:25.189] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-11 14:13:25.376] [INFO] logs - The Api: login called: 9
+[2017-10-11 14:13:25.567] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-11 14:13:44.341] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-11 14:13:44.508] [INFO] logs - The Api: login called: 10
+[2017-10-11 14:13:44.692] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-11 14:14:57.273] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-11 14:14:57.436] [INFO] logs - The Api: login called: 11
+[2017-10-11 14:14:57.619] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-11 14:15:12.120] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-11 14:15:12.302] [INFO] logs - The Api: login called: 12
+[2017-10-11 14:15:12.482] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-11 14:16:43.059] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-11 14:16:43.223] [INFO] logs - The Api: login called: 13
+[2017-10-11 14:16:43.398] [INFO] logs - The Api: getAllTest called: 17
+[2017-10-11 14:17:46.158] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 15
+[2017-10-11 14:17:46.321] [INFO] logs - The Api: login called: 14
+[2017-10-11 14:17:46.500] [INFO] logs - The Api: getAllTest called: 18
+[2017-10-11 14:18:20.491] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 16
+[2017-10-11 14:18:20.657] [INFO] logs - The Api: login called: 15
+[2017-10-11 14:18:20.833] [INFO] logs - The Api: getAllTest called: 19
+[2017-10-11 14:18:46.492] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 17
+[2017-10-11 14:18:46.668] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:18:46',
+  whatToDo: 'i do need to finish my work at home',
+  title: 'Work',
+  _id: 59ddfe166398c52f57f3e30c } was been saved successfully
+[2017-10-11 14:18:46.668] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:18:49.480] [INFO] logs - The Api: getAllTest called: 20
+[2017-10-11 14:20:46.653] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:20:46',
+  whatToDo: 'i do need to finish my work at home',
+  title: 'Work',
+  _id: 59ddfe8e6398c52f57f3e30d } was been saved successfully
+[2017-10-11 14:20:46.653] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 14:20:50.040] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 18
+[2017-10-11 14:20:53.430] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:20:53',
+  whatToDo: 'יש לי הרבה דברים לעושצ',
+  title: 'hiiii',
+  _id: 59ddfe956398c52f57f3e30e } was been saved successfully
+[2017-10-11 14:20:53.430] [INFO] logs - The Api: createNewToDo called: 3
+[2017-10-11 14:21:12.844] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 19
+[2017-10-11 14:21:38.227] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:21:38',
+  whatToDo: 'כשקר',
+  title: 'גדהשק',
+  _id: 59ddfec26398c52f57f3e30f } was been saved successfully
+[2017-10-11 14:21:38.227] [INFO] logs - The Api: createNewToDo called: 4
+[2017-10-11 14:21:46.609] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 20
+[2017-10-11 14:21:47.945] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:21:47',
+  whatToDo: 'ש\'קרכ/\'קרכ/\'',
+  title: '\'כב\'שקכ\'/',
+  _id: 59ddfecb6398c52f57f3e310 } was been saved successfully
+[2017-10-11 14:21:47.946] [INFO] logs - The Api: createNewToDo called: 5
+[2017-10-11 14:22:09.996] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 21
+[2017-10-11 14:22:10.162] [INFO] logs - The Api: login called: 16
+[2017-10-11 14:22:10.341] [INFO] logs - The Api: getAllTest called: 21
+[2017-10-11 14:22:21.172] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 22
+[2017-10-11 14:22:22.036] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:22:21',
+  whatToDo: 'שכהשקרכה',
+  title: 'שדגהש\'ק',
+  _id: 59ddfeed6398c52f57f3e311 } was been saved successfully
+[2017-10-11 14:22:22.036] [INFO] logs - The Api: createNewToDo called: 6
+[2017-10-11 14:23:10.985] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 23
+[2017-10-11 14:23:11.150] [INFO] logs - The Api: login called: 17
+[2017-10-11 14:23:11.326] [INFO] logs - The Api: getAllTest called: 22
+[2017-10-11 14:23:15.727] [INFO] logs - The Api: getAllTest called: 23
+[2017-10-11 14:23:59.322] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:23:59.510] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:23:59.692] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:24:03.729] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:24:03.733] [INFO] logs - {"n":1,"opTime":{"ts":"6475612562586075137","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:24:03.733] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:24:08.529] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:24:10.591] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:27:20.039] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:27:20.264] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:27:20.443] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:27:56.619] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:27:56.823] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:27:57.003] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:27:59.068] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:27:59.072] [INFO] logs - {"n":1,"opTime":{"ts":"6475613571903389697","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:27:59.072] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:28:19.768] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:34:58.164] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:34:58.355] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:34:58.539] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:35:01.815] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:35:01.997] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:35:01',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de01e50539392fe0ea2fbe } was been saved successfully
+[2017-10-11 14:35:01.997] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:35:02.863] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:35:04.922] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:35:05.085] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:35:06.206] [INFO] logs - {"n":1,"opTime":{"ts":"6475615405854425089","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:35:06.206] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:35:14.097] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:35:25.917] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 14:35:26.086] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:35:25',
+  whatToDo: 'sdvVR',
+  title: 'sdvsad',
+  _id: 59de01fd0539392fe0ea2fbf } was been saved successfully
+[2017-10-11 14:35:26.086] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 14:35:51.441] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 14:37:01.983] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:37:01',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de025d0539392fe0ea2fc0 } was been saved successfully
+[2017-10-11 14:37:01.984] [INFO] logs - The Api: createNewToDo called: 3
+[2017-10-11 14:37:05.251] [INFO] logs - {"n":1,"opTime":{"ts":"6475615916955533313","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:37:05.251] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 14:37:26.078] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:37:25',
+  whatToDo: 'sdvVR',
+  title: 'sdvsad',
+  _id: 59de02750539392fe0ea2fc1 } was been saved successfully
+[2017-10-11 14:37:26.078] [INFO] logs - The Api: createNewToDo called: 4
+[2017-10-11 14:38:52.893] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:38:53.084] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:39:03.996] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:39:04.166] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:39:06.338] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:39:13.520] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:39:16.388] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:39:57.491] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:39:57.673] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:39:57.848] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:39:58.881] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:39:59.043] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:39:59.936] [INFO] logs - {"n":1,"opTime":{"ts":"6475616668574810113","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:39:59.937] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:40:04.535] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:40:06.188] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:40:06.416] [INFO] logs - {"n":1,"opTime":{"ts":"6475616694344613889","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:40:06.416] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 14:40:06.417] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:40:11.403] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 14:40:17.239] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 14:40:17.414] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:40:17',
+  whatToDo: 'aaaa',
+  title: 'aaa',
+  _id: 59de03216e5e4b2ff40b4edd } was been saved successfully
+[2017-10-11 14:40:17.415] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:40:19.103] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-11 14:40:38.364] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-11 14:40:56.348] [INFO] logs - {"n":1,"opTime":{"ts":"6475616909092978689","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:40:56.349] [INFO] logs - The Api: dropToDo called:3
+[2017-10-11 14:40:56.357] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-11 14:41:34.185] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-11 14:41:34.563] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:41:34',
+  whatToDo: 'aaaa',
+  title: 'aaa',
+  _id: 59de036e6e5e4b2ff40b4ede } was been saved successfully
+[2017-10-11 14:41:34.563] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 14:41:37.422] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-11 14:41:38.973] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-11 14:41:39.134] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-11 14:41:39.144] [INFO] logs - {"n":1,"opTime":{"ts":"6475617093776572417","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:41:39.144] [INFO] logs - The Api: dropToDo called:4
+[2017-10-11 14:41:54.355] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-11 14:41:54.517] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-11 14:41:54.524] [INFO] logs - {"n":0,"opTime":{"ts":"6475617093776572417","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:41:54.525] [INFO] logs - The Api: dropToDo called:5
+[2017-10-11 14:42:00.303] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-11 14:42:33.842] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:42:34.026] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:42:34.198] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:42:42.852] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:42:43.025] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:42:42',
+  whatToDo: 'hiii',
+  title: 'hello',
+  _id: 59de03b2177a122fff6eb5d6 } was been saved successfully
+[2017-10-11 14:42:43.026] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:42:46.797] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:43:21.354] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:43:36.053] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:43:37.841] [INFO] logs - {"n":1,"opTime":{"ts":"6475617604877680641","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:43:37.841] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:44:29.302] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:44:29.495] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:44:31.709] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:44:38.054] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:44:38.249] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:44:38',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de0426caac5f3004a9c26e } was been saved successfully
+[2017-10-11 14:44:38.249] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:44:42.075] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:44:46.237] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:44:52.073] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:44:53.526] [INFO] logs - {"n":1,"opTime":{"ts":"6475617927000227841","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:44:53.526] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:45:15.532] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:46:38.238] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:46:38',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de049ecaac5f3004a9c26f } was been saved successfully
+[2017-10-11 14:46:38.239] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 14:46:53.520] [INFO] logs - {"n":0,"opTime":{"ts":"6475618377971793922","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:46:53.520] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 14:47:19.376] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:47:19.561] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:47:21.326] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:47:25.792] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:47:31.474] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:47:32.543] [INFO] logs - {"n":1,"opTime":{"ts":"6475618609900027905","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:47:32.543] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:48:32.576] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:48:34.761] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:49:47.098] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:49:47.307] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:49:47',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de055b74fc323019b8bce3 } was been saved successfully
+[2017-10-11 14:49:47.307] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:49:50.745] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:49:55.104] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:49:58.888] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:49:59.524] [INFO] logs - {"n":1,"opTime":{"ts":"6475619241260220417","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:49:59.524] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:50:14.782] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:51:43.850] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:51:44.041] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:51:44.235] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:51:47.884] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:51:48.193] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:51:47',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de05d37a4cc630249355d9 } was been saved successfully
+[2017-10-11 14:51:48.193] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:52:08.895] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:52:51.860] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:53:03.821] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:53:04.847] [INFO] logs - {"n":1,"opTime":{"ts":"6475620035829170177","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:53:04.848] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:53:26.621] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 14:53:26.810] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:54:24.130] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 14:54:24.317] [INFO] logs - The Api: login called: 1
+[2017-10-11 14:54:26.723] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 14:54:32.815] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 14:54:33.056] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:54:32',
+  whatToDo: 'ssss',
+  title: 'asadad',
+  _id: 59de0678b08f703029aa7af1 } was been saved successfully
+[2017-10-11 14:54:33.056] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 14:54:37.170] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 14:54:48.638] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 14:54:49.950] [INFO] logs - {"n":1,"opTime":{"ts":"6475620491095703553","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:54:49.950] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 14:55:04.100] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 14:55:28.617] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 14:55:28.791] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:55:28',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de06b0b08f703029aa7af2 } was been saved successfully
+[2017-10-11 14:55:28.791] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 14:55:32.312] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 14:55:34.078] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-11 14:55:34.405] [INFO] logs - {"n":1,"opTime":{"ts":"6475620680074264577","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:55:34.405] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 14:55:34.575] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 14:56:34.848] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-11 14:56:35.016] [INFO] logs - The Api: login called: 2
+[2017-10-11 14:56:35.193] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-11 14:58:34.402] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-11 14:58:34.568] [INFO] logs - The Api: login called: 3
+[2017-10-11 14:58:34.742] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-11 14:58:41.056] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-11 14:58:41.226] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 14:58:41',
+  whatToDo: 'klnlknkl',
+  title: 'klnkl',
+  _id: 59de0771b08f703029aa7af3 } was been saved successfully
+[2017-10-11 14:58:41.226] [INFO] logs - The Api: createNewToDo called: 3
+[2017-10-11 14:58:42.503] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-11 14:58:44.907] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-11 14:58:45.236] [INFO] logs - {"n":1,"opTime":{"ts":"6475621500413018113","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 14:58:45.236] [INFO] logs - The Api: dropToDo called:3
+[2017-10-11 14:58:45.404] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-11 15:04:56.436] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 15:04:56.655] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 15:04:56',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de08e87efcbe3035394b2e } was been saved successfully
+[2017-10-11 15:04:56.655] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 15:04:57.957] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 15:05:20.182] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 15:05:20.373] [INFO] logs - The Api: login called: 1
+[2017-10-11 15:05:20.549] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 15:05:28.202] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 15:05:29.153] [INFO] logs - {"n":1,"opTime":{"ts":"6475623235579805697","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 15:05:29.153] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 15:05:43.435] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 15:06:07.883] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 15:06:08.074] [INFO] logs - The Api: login called: 2
+[2017-10-11 15:06:08.250] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 15:06:12.420] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-11 15:06:12.602] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 15:06:12',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de09347efcbe3035394b2f } was been saved successfully
+[2017-10-11 15:06:12.603] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 15:06:13.992] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 15:06:19.333] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-11 15:06:19.735] [INFO] logs - {"n":1,"opTime":{"ts":"6475623450328170497","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 15:06:19.735] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 15:06:19.904] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-11 15:07:48.132] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-11 15:07:48.299] [INFO] logs - The Api: login called: 3
+[2017-10-11 15:07:48.475] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-11 15:08:19.002] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-11 15:08:19.169] [INFO] logs - The Api: login called: 4
+[2017-10-11 15:08:19.343] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-11 15:10:59.088] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-11 15:10:59.255] [INFO] logs - The Api: login called: 5
+[2017-10-11 15:10:59.431] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-11 15:12:09.388] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-11 15:12:09.555] [INFO] logs - The Api: login called: 6
+[2017-10-11 15:12:09.732] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-11 15:14:16.171] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-11 15:14:16.338] [INFO] logs - The Api: login called: 7
+[2017-10-11 15:14:16.514] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-11 15:14:58.888] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-11 15:14:59.055] [INFO] logs - The Api: login called: 8
+[2017-10-11 15:14:59.242] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-11 15:15:39.621] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-11 15:15:39.787] [INFO] logs - The Api: login called: 9
+[2017-10-11 15:15:39.964] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-11 15:15:45.577] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-11 15:16:33.538] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-11 15:16:33.724] [INFO] logs - The Api: login called: 10
+[2017-10-11 15:16:34.571] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-11 17:11:32.325] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "todos", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:11:32.327] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-11 17:12:31.707] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "todos", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:12:31.708] [INFO] logs - The Api: getAllTest called: 17
+[2017-10-11 17:12:34.951] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "todos", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:12:34.951] [INFO] logs - The Api: getAllTest called: 18
+[2017-10-11 17:13:06.093] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "todos", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:13:06.094] [INFO] logs - The Api: getAllTest called: 19
+[2017-10-11 17:13:09.859] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "todos", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:13:09.860] [INFO] logs - The Api: getAllTest called: 20
+[2017-10-11 17:13:15.555] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "todos", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:13:15.556] [INFO] logs - The Api: getAllTest called: 21
+[2017-10-11 17:13:34.346] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 15
+[2017-10-11 17:13:34.528] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:13:36.701] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:13:41.028] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 16
+[2017-10-11 17:13:41.212] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-11 17:14:08.894] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 17:14:09.107] [INFO] logs - The Api: login called: 1
+[2017-10-11 17:14:09.304] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 17:14:15.236] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 17:16:34.808] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 17:16:34.972] [INFO] logs - The Api: login called: 2
+[2017-10-11 17:16:35.147] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 17:16:45.641] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 17:16:49.913] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 17:18:03.065] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 17:18:03.230] [INFO] logs - The Api: login called: 3
+[2017-10-11 17:18:03.417] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-11 17:18:27.856] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 17:18:28.025] [INFO] logs - The Api: login called: 4
+[2017-10-11 17:18:28.206] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-11 17:19:01.783] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-11 17:19:16.939] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-11 17:19:21.162] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-11 17:19:22.844] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-11 17:21:00.902] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-11 17:21:01.067] [INFO] logs - The Api: login called: 5
+[2017-10-11 17:21:01.241] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-11 17:21:49.159] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-11 17:24:26.889] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-11 17:24:27.053] [INFO] logs - The Api: login called: 6
+[2017-10-11 17:24:27.229] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-11 17:24:36.039] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-11 17:24:40.626] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-11 17:24:40.811] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 17:24:40',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de29a8ad137131573c406b } was been saved successfully
+[2017-10-11 17:24:40.811] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 17:24:41.800] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-11 17:26:40.788] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 17:26:40',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59de2a20ad137131573c406c } was been saved successfully
+[2017-10-11 17:26:40.788] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 17:35:40.149] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-11 17:35:40.316] [INFO] logs - The Api: login called: 7
+[2017-10-11 17:35:40.494] [INFO] logs - The Api: getAllTest called: 17
+[2017-10-11 17:36:31.153] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-11 17:36:31.316] [INFO] logs - The Api: login called: 8
+[2017-10-11 17:36:31.496] [INFO] logs - The Api: getAllTest called: 18
+[2017-10-11 17:37:48.534] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-11 17:37:48.781] [INFO] logs - The Api: login called: 9
+[2017-10-11 17:37:48.955] [INFO] logs - The Api: getAllTest called: 19
+[2017-10-11 17:37:53.993] [INFO] logs - The Api: getAllTest called: 20
+[2017-10-11 17:39:59.674] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-11 17:39:59.838] [INFO] logs - The Api: login called: 10
+[2017-10-11 17:40:00.012] [INFO] logs - The Api: getAllTest called: 21
+[2017-10-11 17:40:22.297] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-11 17:40:22.462] [INFO] logs - The Api: login called: 11
+[2017-10-11 17:40:22.637] [INFO] logs - The Api: getAllTest called: 22
+[2017-10-11 17:40:31.406] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-11 17:40:32.686] [INFO] logs - {"n":1,"opTime":{"ts":"6475663191660560385","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 17:40:32.686] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 17:40:32.898] [INFO] logs - The Api: getAllTest called: 23
+[2017-10-11 17:41:08.903] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-11 17:41:09.146] [INFO] logs - The Api: login called: 1
+[2017-10-11 17:41:09.320] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-11 17:41:11.368] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-11 17:41:12.928] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-11 17:41:17.869] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-11 17:42:37.068] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-11 17:42:37.229] [INFO] logs - The Api: login called: 2
+[2017-10-11 17:42:37.406] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-11 17:43:05.047] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-11 17:43:05.233] [INFO] logs - The Api: login called: 3
+[2017-10-11 17:43:05.407] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-11 17:43:31.192] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-11 17:43:31.354] [INFO] logs - The Api: login called: 4
+[2017-10-11 17:43:31.525] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-11 17:43:50.203] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-11 17:43:50.364] [INFO] logs - The Api: login called: 5
+[2017-10-11 17:43:50.536] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-11 17:45:50.287] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-11 17:45:50.449] [INFO] logs - The Api: login called: 6
+[2017-10-11 17:45:50.623] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-11 17:46:10.586] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-11 17:46:26.635] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-11 17:46:26.797] [INFO] logs - The Api: login called: 7
+[2017-10-11 17:46:26.970] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-11 17:47:15.448] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-11 17:47:15.609] [INFO] logs - The Api: login called: 8
+[2017-10-11 17:47:15.780] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-11 17:48:25.315] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-11 17:48:25.476] [INFO] logs - The Api: login called: 9
+[2017-10-11 17:48:25.648] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-11 17:49:44.728] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-11 17:49:44.893] [INFO] logs - The Api: login called: 10
+[2017-10-11 17:49:45.067] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-11 17:49:50.169] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-11 17:49:53.220] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-11 17:50:15.933] [INFO] logs - The Api: getAllTest called: 17
+[2017-10-11 17:50:17.894] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-11 17:50:18.259] [INFO] logs - {"n":1,"opTime":{"ts":"6475665704216428545","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 17:50:18.259] [INFO] logs - The Api: dropToDo called:1
+[2017-10-11 17:50:18.424] [INFO] logs - The Api: getAllTest called: 18
+[2017-10-11 17:50:26.895] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-11 17:50:27.089] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 17:50:26',
+  whatToDo: 'aa',
+  title: 'aa',
+  _id: 59de2fb282576131868a4838 } was been saved successfully
+[2017-10-11 17:50:27.089] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-11 17:50:28.066] [INFO] logs - The Api: getAllTest called: 19
+[2017-10-11 17:50:41.554] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-11 17:50:41.716] [INFO] logs - The Api: login called: 11
+[2017-10-11 17:50:41.885] [INFO] logs - The Api: getAllTest called: 20
+[2017-10-11 17:51:43.896] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-11 17:51:44.059] [INFO] logs - The Api: login called: 12
+[2017-10-11 17:51:44.231] [INFO] logs - The Api: getAllTest called: 21
+[2017-10-11 17:53:28.018] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 15
+[2017-10-11 17:53:28.276] [INFO] logs - The Api: login called: 13
+[2017-10-11 17:53:28.451] [INFO] logs - The Api: getAllTest called: 22
+[2017-10-11 17:54:12.487] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 16
+[2017-10-11 17:54:12.647] [INFO] logs - The Api: login called: 14
+[2017-10-11 17:54:12.820] [INFO] logs - The Api: getAllTest called: 23
+[2017-10-11 17:54:38.893] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 17
+[2017-10-11 17:54:39.053] [INFO] logs - The Api: login called: 15
+[2017-10-11 17:54:39.227] [INFO] logs - The Api: getAllTest called: 24
+[2017-10-11 17:55:10.304] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 18
+[2017-10-11 17:55:10.465] [INFO] logs - The Api: login called: 16
+[2017-10-11 17:55:10.635] [INFO] logs - The Api: getAllTest called: 25
+[2017-10-11 17:55:25.109] [INFO] logs - The Api: getAllTest called: 26
+[2017-10-11 18:41:07.503] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 19
+[2017-10-11 18:41:07.778] [INFO] logs - The Api: login called: 17
+[2017-10-11 18:41:07.963] [INFO] logs - The Api: getAllTest called: 27
+[2017-10-11 18:41:36.034] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 20
+[2017-10-11 18:41:36.199] [INFO] logs - The Api: login called: 18
+[2017-10-11 18:41:36.378] [INFO] logs - The Api: getAllTest called: 28
+[2017-10-11 18:41:44.488] [INFO] logs - The Api: getAllTest called: 29
+[2017-10-11 18:41:46.287] [INFO] logs - The Api: getAllTest called: 30
+[2017-10-11 18:41:48.041] [INFO] logs - The Api: getAllTest called: 31
+[2017-10-11 18:42:17.653] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 21
+[2017-10-11 18:42:17.825] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 18:42:17',
+  whatToDo: 'hiii how r u,... i wnat to do something special',
+  title: 'home work',
+  _id: 59de3bd982576131868a4839 } was been saved successfully
+[2017-10-11 18:42:17.825] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-11 18:42:19.115] [INFO] logs - The Api: getAllTest called: 32
+[2017-10-11 18:44:17.817] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '11-9-2017, 18:44:17',
+  whatToDo: 'hiii how r u,... i wnat to do something special',
+  title: 'home work',
+  _id: 59de3c5182576131868a483a } was been saved successfully
+[2017-10-11 18:44:17.817] [INFO] logs - The Api: createNewToDo called: 3
+[2017-10-11 18:46:40.638] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 22
+[2017-10-11 18:46:40.802] [INFO] logs - The Api: login called: 19
+[2017-10-11 18:46:40.979] [INFO] logs - The Api: getAllTest called: 33
+[2017-10-11 18:46:50.295] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 23
+[2017-10-11 18:46:50.460] [INFO] logs - The Api: login called: 20
+[2017-10-11 18:46:50.637] [INFO] logs - The Api: getAllTest called: 34
+[2017-10-11 18:46:56.758] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 24
+[2017-10-11 18:46:57.085] [INFO] logs - {"n":1,"opTime":{"ts":"6475680302810267649","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-11 18:46:57.085] [INFO] logs - The Api: dropToDo called:2
+[2017-10-11 18:46:57.253] [INFO] logs - The Api: getAllTest called: 35
+[2017-10-11 18:47:06.277] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 25
+[2017-10-11 18:47:06.441] [INFO] logs - The Api: login called: 21
+[2017-10-11 18:47:06.617] [INFO] logs - The Api: getAllTest called: 36
+[2017-10-12 10:40:15.828] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 26
+[2017-10-12 10:40:16.007] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-12 10:40:38.828] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 10:40:39.028] [INFO] logs - The Api: login called: 1
+[2017-10-12 10:40:39.230] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-12 10:41:21.516] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-12 10:41:21.693] [INFO] logs - The Api: login called: 2
+[2017-10-12 10:41:21.881] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-12 10:43:05.413] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-12 10:43:05.590] [INFO] logs - The Api: login called: 3
+[2017-10-12 10:43:05.816] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-12 10:44:14.329] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-12 10:44:14.506] [INFO] logs - The Api: login called: 4
+[2017-10-12 10:44:14.696] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-12 10:46:14.355] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-12 10:46:14.557] [INFO] logs - The Api: login called: 5
+[2017-10-12 10:46:14.746] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-12 10:47:22.716] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-12 10:47:22.892] [INFO] logs - The Api: login called: 6
+[2017-10-12 10:47:23.080] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-12 10:48:16.491] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-12 10:48:16.668] [INFO] logs - The Api: login called: 7
+[2017-10-12 10:48:16.856] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-12 10:48:55.248] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-12 10:49:55.292] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-12 10:49:56.898] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 10:49:57.279] [INFO] logs - {"n":1,"opTime":{"ts":"6475928453135728641","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 10:49:57.279] [INFO] logs - The Api: dropToDo called:1
+[2017-10-12 10:49:57.451] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-12 10:50:07.290] [INFO] logs - The Api: getAllTest called: 3

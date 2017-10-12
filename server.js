@@ -33,7 +33,7 @@ app.get('/getAllToDo/:email', toDo.getAllToDo);
 
 app.post('/createNewToDo/', toDo.createNewToDo);
 
-app.get('/dropToDo/:title', toDo.dropToDo);
+app.post('/dropToDo/', toDo.dropToDo);
 
 app.all('*', toDo.errorHandling);
 

@@ -130,22 +130,25 @@ log4js.configure({
         })
     };
     exports.dropToDo = (req, res) => {
-    TODO.find({title:{$eq:req.params.title}},
+    TODO.find({_id:{$eq:req.body._id}},
         (err, data) => {
             if (err) {
                 logger.info(`query error: ${err}`);
                 res.json(err);
-            }
-            TODO.remove({_id:{$eq:data[0]._id}},
-                (err,toDo) => {
-                    if (err) {
-                        logger.info(`query error: ${err}`);
-                        res.json(err);
-                    }
-                    else logger.info(`${toDo} was deleted successfully!`);
-                    cDropToDo++;
-                    logger.info(`The Api: dropToDo called:${cDropToDo}`);
+            }else{
+                TODO.remove({_id:{$eq:data[0]._id}},
+                    (err,toDo) => {
+                        if (err) {
+                            logger.info(`query error: ${err}`);
+                            res.json(err);
+                        }
+                        else logger.info(`${toDo} was deleted successfully!`);
+                        cDropToDo++;
+                        logger.info(`The Api: dropToDo called:${cDropToDo}`);
+                        res.json(data);
                 });
+            }
+
         })
     };
 
