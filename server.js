@@ -45,9 +45,9 @@ app.listen(port, () => {console.log(`listening on port ${port}`);});
 io.on('connection', (socket) => {
     console.log('user connected');
 
-    socket.on('newConnection', (message, userName) => {
+    socket.on('newConnection', (message, userName, port) => {
         console.log('newConnection');
-        io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
+        io.emit('message', {type:'subscribe', text:'New user, ', userName:userName, port:portChat});
     });
 
     socket.on('disconnect', (message, userName) => {
