@@ -7,6 +7,7 @@ mongoose.Promise = global.Promise;
 var options = {
     server: {
         auto_reconnect:true,
+        useMongoClient: false
     }
 };
 mongoose.connect(consts, options);
