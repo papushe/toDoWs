@@ -16,7 +16,6 @@ app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
 app.use(
     (req,res,next) => {
         res.header("Access-Control-Allow-Origin", "*");
-        // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
         res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
         res.header('Access-Control-Allow-Credentials', 'true');
         next();
@@ -64,3 +63,5 @@ io.on('connection', (socket) => {
 http.listen(portChat, () => {
     console.log(`started on port ${portChat}`);
 });
+
+// res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
