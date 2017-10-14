@@ -4,6 +4,7 @@ const   express = require('express'),
         PORT   = require('./config').PORT,
         bodyParser = require('body-parser'),
         port = process.env.PORT || PORT,
+        portChat = process.env.PORT || 5000,
         http = require('http').Server(app),
         io = require('socket.io')(http);
 
