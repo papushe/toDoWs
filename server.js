@@ -40,7 +40,7 @@ app.post('/dropToDo/', toDo.dropToDo);
 
 app.all('*', toDo.errorHandling);
 
-app.listen(port, () => {console.log(`listening on port ${port}`);});
+app.listen(3000, () => {console.log(`listening on port ${port}`);});
 
 io.on('connection', (socket) => {
     console.log('user connected');
