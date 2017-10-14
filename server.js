@@ -65,3 +65,5 @@ http.listen(portChat, () => {
 });
 
 // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
+
+//dont forget Mongoose.prototype.connect
