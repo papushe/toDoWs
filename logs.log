@@ -2499,3 +2499,8 @@
 [2017-10-14 18:43:59.687] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
 [2017-10-14 18:43:59.874] [INFO] logs - The Api: login called: 1
 [2017-10-14 18:44:00.068] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 19:06:39.375] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 19:06:39.559] [INFO] logs - The Api: login called: 0
+[2017-10-14 19:06:46.607] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 19:06:46.796] [INFO] logs - The Api: login called: 1
+[2017-10-14 19:06:46.992] [INFO] logs - The Api: getAllTest called: 1
