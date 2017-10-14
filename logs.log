@@ -1739,3 +1739,704 @@
 [2017-10-12 11:25:41.680] [INFO] logs - The Api: createNewToDo called: 3
 [2017-10-12 11:25:42.841] [INFO] logs - The Api: getAllTest called: 8
 [2017-10-12 11:25:57.354] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-12 12:09:59.562] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 12:09:59.759] [INFO] logs - new User: { __v: 0,
+  password: 'shely9188',
+  userName: 'mosheP',
+  firstName: 'Moshe',
+  lastName: 'Peretz',
+  email: 'papushe@gmail.com',
+  date: '12-9-2017, 12:09:59',
+  _id: 59df316769b64536f6c4ba25 } was been created successfully
+[2017-10-12 12:09:59.759] [INFO] logs - The Api: createNewUser called: 1
+[2017-10-12 12:12:19.803] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-12 12:12:20.930] [INFO] logs - new User: { __v: 0,
+  password: 'shely9188',
+  userName: 'a',
+  firstName: 'b',
+  lastName: 'bb',
+  email: 'papushe@gmail.com',
+  date: '12-9-2017, 12:12:20',
+  _id: 59df31f469b64536f6c4ba26 } was been created successfully
+[2017-10-12 12:12:20.930] [INFO] logs - The Api: createNewUser called: 2
+[2017-10-12 12:13:32.961] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-12 12:13:33.730] [INFO] logs - new User: { __v: 0,
+  password: 'shely9188',
+  userName: 'aa',
+  firstName: 'aa',
+  lastName: 'aa',
+  email: 'papushe@gmail.com',
+  date: '12-9-2017, 12:13:33',
+  _id: 59df323d69b64536f6c4ba27 } was been created successfully
+[2017-10-12 12:13:33.730] [INFO] logs - The Api: createNewUser called: 3
+[2017-10-12 12:13:43.705] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-12 12:14:35.075] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-12 12:14:35.286] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe@gmail.com',
+  date: '12-9-2017, 12:14:35',
+  whatToDo: 'a',
+  title: 'a',
+  _id: 59df327b69b64536f6c4ba28 } was been saved successfully
+[2017-10-12 12:14:35.287] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-12 12:14:47.859] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-12 12:14:49.232] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-12 12:14:49.567] [INFO] logs - {"n":1,"opTime":{"ts":"6475950353173970945","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 12:14:49.567] [INFO] logs - The Api: dropToDo called:1
+[2017-10-12 12:14:49.736] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-12 12:19:07.238] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-12 12:19:07.404] [INFO] logs - The Api: login called: 1
+[2017-10-12 12:19:34.725] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-12 12:27:40.140] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-12 12:27:40.307] [INFO] logs - The Api: login called: 2
+[2017-10-12 12:27:40.493] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-12 12:28:06.826] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-12 12:28:06.994] [INFO] logs - The Api: login called: 3
+[2017-10-12 12:28:07.175] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-12 12:28:16.804] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-12 12:28:16.973] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '12-9-2017, 12:28:16',
+  whatToDo: 'sssssssss',
+  title: 'a',
+  _id: 59df35b069b64536f6c4ba29 } was been saved successfully
+[2017-10-12 12:28:16.973] [INFO] logs - The Api: createNewToDo called: 2
+[2017-10-12 12:28:18.937] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-12 12:28:32.152] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-12 12:28:32.315] [INFO] logs - The Api: login called: 4
+[2017-10-12 12:28:32.495] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-12 12:29:17.651] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-12 12:30:17.134] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-12 12:30:17.458] [INFO] logs - {"n":1,"opTime":{"ts":"6475954338903621634","t":3},"electionId":"7fffffff0000000000000003","ok":1} was deleted successfully!
+[2017-10-12 12:30:17.459] [INFO] logs - The Api: dropToDo called:2
+[2017-10-12 12:30:17.629] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-12 12:30:44.598] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-12 12:30:44.761] [INFO] logs - The Api: login called: 5
+[2017-10-12 12:30:44.938] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-12 12:30:57.214] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-12 12:30:57.375] [INFO] logs - The Api: login called: 6
+[2017-10-12 12:30:57.554] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-12 12:31:09.132] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-12 12:31:09.326] [INFO] logs - The Api: login called: 7
+[2017-10-12 12:31:09.503] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-12 12:33:00.755] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 15
+[2017-10-12 12:33:00.917] [INFO] logs - The Api: login called: 8
+[2017-10-12 12:33:01.096] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-12 12:33:24.788] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-12 12:33:56.087] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 16
+[2017-10-12 12:33:56.248] [INFO] logs - The Api: login called: 9
+[2017-10-12 12:33:56.444] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-12 12:34:36.293] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 17
+[2017-10-12 12:34:36.455] [INFO] logs - The Api: login called: 10
+[2017-10-12 12:34:36.640] [INFO] logs - The Api: getAllTest called: 17
+[2017-10-12 12:36:48.008] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 18
+[2017-10-12 12:36:48.172] [INFO] logs - The Api: login called: 11
+[2017-10-12 12:36:48.365] [INFO] logs - The Api: getAllTest called: 18
+[2017-10-12 12:40:30.040] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 19
+[2017-10-12 12:40:30.205] [INFO] logs - The Api: login called: 12
+[2017-10-12 12:40:30.383] [INFO] logs - The Api: getAllTest called: 19
+[2017-10-12 12:51:51.596] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 20
+[2017-10-12 12:51:52.446] [INFO] logs - The Api: login called: 12
+[2017-10-12 12:52:48.382] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 21
+[2017-10-12 12:52:48.756] [INFO] logs - The Api: login called: 12
+[2017-10-12 12:54:32.247] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 22
+[2017-10-12 12:54:33.004] [INFO] logs - The Api: login called: 12
+[2017-10-12 16:26:49.403] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 23
+[2017-10-12 16:26:49.604] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-12 16:27:04.915] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-12 16:27:06.183] [INFO] logs - The Api: login called: 1
+[2017-10-12 16:27:06.381] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-12 16:28:00.777] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-12 16:28:00.947] [INFO] logs - The Api: login called: 2
+[2017-10-12 16:28:01.125] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-12 16:28:03.836] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-12 16:30:03.788] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-12 16:30:09.637] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-12 16:30:21.616] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-12 16:30:21.781] [INFO] logs - The Api: login called: 2
+[2017-10-12 16:37:26.845] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-12 16:37:27.009] [INFO] logs - The Api: login called: 3
+[2017-10-12 16:37:27.192] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-12 16:40:06.842] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-12 16:40:07.007] [INFO] logs - The Api: login called: 4
+[2017-10-12 16:40:07.192] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-12 17:55:37.874] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-12 17:55:38.049] [INFO] logs - The Api: login called: 5
+[2017-10-12 17:55:38.232] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-12 17:57:22.575] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-12 17:57:22.761] [INFO] logs - The Api: login called: 5
+[2017-10-12 17:57:32.412] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-12 17:57:32.584] [INFO] logs - The Api: login called: 6
+[2017-10-12 17:57:32.769] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-12 17:57:56.119] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-12 17:57:59.806] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-12 17:57:59.995] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '12-9-2017, 17:57:59',
+  whatToDo: 'hh',
+  title: 'h',
+  _id: 59df82f7db342b38219eea37 } was been saved successfully
+[2017-10-12 17:57:59.995] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-12 17:58:03.684] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-13 11:29:57.702] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:29:57.989] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:29:58.184] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:30:25.627] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:30:25.895] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:30:26.079] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:30:53.202] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:30:53.393] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:30:53.574] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:31:42.517] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:31:42.715] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:31:42.904] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:32:26.822] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:32:27.016] [INFO] logs - The Api: login called: 0
+[2017-10-13 11:32:31.596] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:32:31.779] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:32:46.872] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 11:32:47.046] [INFO] logs - The Api: login called: 2
+[2017-10-13 11:32:47.227] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 11:33:26.976] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 11:33:27.150] [INFO] logs - The Api: login called: 3
+[2017-10-13 11:33:27.335] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 11:37:48.319] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:37:48.511] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:37:48.694] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:38:51.428] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:38:51.659] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:38:51.959] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:39:46.434] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:39:46.623] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:39:46.802] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:40:03.778] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:40:03.973] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:40:04.159] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:44:14.397] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:44:14.595] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:44:14.782] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:50:31.025] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:50:31.214] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:50:31.400] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:54:21.023] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 11:54:21.216] [INFO] logs - The Api: login called: 1
+[2017-10-13 11:54:21.400] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 11:55:46.280] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 11:55:46.456] [INFO] logs - The Api: login called: 2
+[2017-10-13 11:55:46.646] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 11:58:33.665] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 11:58:33.848] [INFO] logs - The Api: login called: 3
+[2017-10-13 11:58:34.041] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 12:02:10.872] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 12:02:11.096] [INFO] logs - The Api: login called: 4
+[2017-10-13 12:02:11.284] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 12:06:41.930] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 12:06:42.116] [INFO] logs - The Api: login called: 5
+[2017-10-13 12:06:42.307] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 12:08:48.027] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-13 12:08:48.202] [INFO] logs - The Api: login called: 6
+[2017-10-13 12:08:48.388] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 12:10:30.503] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:10:30.693] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:10:30.869] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:17:01.285] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:17:01.476] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:17:02.314] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:17:02.326] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:18:29.609] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:18:29.799] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:18:29.984] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:19:21.768] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 12:19:21.943] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:19:22.145] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 12:20:31.223] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:20:31.419] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:20:31.607] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:21:51.761] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 12:21:51.938] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:21:52.129] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 12:23:06.746] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:23:06.929] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:23:07.107] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:24:40.086] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:24:40.278] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:24:40.470] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:26:25.433] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:26:25.643] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:26:25.837] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:26:39.563] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 12:26:39.734] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:26:39.919] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 12:31:00.252] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:31:00.442] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:31:00.627] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:33:01.383] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:33:01.705] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:33:01.886] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:33:32.376] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 12:33:32.720] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:33:32.927] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 12:34:40.391] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 12:34:40.567] [INFO] logs - The Api: login called: 3
+[2017-10-13 12:34:40.743] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 12:37:25.461] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:37:25.659] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:37:25.857] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:38:53.955] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 12:38:54.135] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:38:54.330] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 12:39:22.899] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 12:39:23.077] [INFO] logs - The Api: login called: 3
+[2017-10-13 12:39:23.388] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 12:40:18.463] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 12:40:18.643] [INFO] logs - The Api: login called: 4
+[2017-10-13 12:40:18.841] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 12:41:46.532] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 12:41:46.710] [INFO] logs - The Api: login called: 5
+[2017-10-13 12:41:46.905] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 12:43:31.344] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-13 12:43:31.522] [INFO] logs - The Api: login called: 6
+[2017-10-13 12:43:31.720] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 12:43:54.647] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-13 12:43:54.824] [INFO] logs - The Api: login called: 7
+[2017-10-13 12:43:55.014] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-13 12:46:15.388] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:46:15.578] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:46:15.761] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:46:50.189] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 12:46:50.361] [INFO] logs - The Api: login called: 2
+[2017-10-13 12:46:50.542] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 12:47:52.956] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 12:47:53.125] [INFO] logs - The Api: login called: 3
+[2017-10-13 12:47:53.306] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 12:48:59.674] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 12:48:59.844] [INFO] logs - The Api: login called: 4
+[2017-10-13 12:49:00.025] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 12:50:04.335] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 12:50:04.508] [INFO] logs - The Api: login called: 5
+[2017-10-13 12:50:04.690] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 12:51:54.597] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:51:54.790] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:51:54.985] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:55:41.445] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:55:41.637] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:55:42.489] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 12:58:15.325] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 12:58:15.565] [INFO] logs - The Api: login called: 1
+[2017-10-13 12:58:15.753] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 13:03:17.462] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 13:03:17.662] [INFO] logs - The Api: login called: 1
+[2017-10-13 13:03:17.855] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 13:06:44.346] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 13:06:44.536] [INFO] logs - The Api: login called: 1
+[2017-10-13 13:06:44.729] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 13:10:13.993] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 13:10:14.188] [INFO] logs - The Api: login called: 1
+[2017-10-13 13:10:14.381] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 13:11:33.778] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 13:11:34.056] [INFO] logs - The Api: login called: 2
+[2017-10-13 13:11:34.243] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 13:14:30.498] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 13:14:30.674] [INFO] logs - The Api: login called: 3
+[2017-10-13 13:14:30.862] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 13:17:54.952] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 13:17:55.127] [INFO] logs - The Api: login called: 4
+[2017-10-13 13:17:55.318] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 13:19:02.278] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 13:19:02.452] [INFO] logs - The Api: login called: 5
+[2017-10-13 13:19:02.639] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 13:19:47.767] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-13 13:19:47.947] [INFO] logs - The Api: login called: 6
+[2017-10-13 13:19:48.144] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 15:44:21.959] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 15:44:22.148] [INFO] logs - The Api: login called: 1
+[2017-10-13 15:44:22.336] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 15:44:33.070] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 15:44:33.248] [INFO] logs - The Api: login called: 2
+[2017-10-13 15:44:33.440] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 15:44:47.681] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 15:45:35.630] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 15:45:35.818] [INFO] logs - The Api: login called: 3
+[2017-10-13 15:45:36.002] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 15:45:40.022] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 15:45:40.193] [INFO] logs - The Api: login called: 4
+[2017-10-13 15:45:40.373] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 15:45:43.146] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 15:48:54.703] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 15:48:54.885] [INFO] logs - The Api: login called: 1
+[2017-10-13 15:48:55.062] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 15:48:59.024] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 15:48:59.272] [INFO] logs - The Api: login called: 2
+[2017-10-13 15:48:59.450] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 16:10:35.582] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 16:10:35.749] [INFO] logs - The Api: login called: 3
+[2017-10-13 16:10:35.934] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 16:10:46.508] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 16:10:46.676] [INFO] logs - The Api: login called: 4
+[2017-10-13 16:10:46.855] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 16:13:56.196] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 16:13:56.362] [INFO] logs - The Api: login called: 4
+[2017-10-13 16:14:05.249] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-13 16:14:05.420] [INFO] logs - The Api: login called: 5
+[2017-10-13 16:14:05.605] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 16:17:17.668] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-13 16:17:17.838] [INFO] logs - The Api: login called: 6
+[2017-10-13 16:17:18.024] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 16:18:17.802] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-13 16:18:30.319] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-13 16:18:30.506] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '13-9-2017, 16:18:30',
+  whatToDo: 'asmdhckja kasdncjklanasdkj',
+  title: 'fifa',
+  _id: 59e0bd2639d0bf3f7fcee285 } was been saved successfully
+[2017-10-13 16:18:30.506] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-13 16:18:33.638] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-13 16:18:44.242] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-13 16:22:34.460] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-13 16:22:34.624] [INFO] logs - The Api: login called: 7
+[2017-10-13 16:22:34.811] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-13 16:22:39.875] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-13 16:22:40.043] [INFO] logs - The Api: login called: 8
+[2017-10-13 16:22:40.222] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-13 16:23:54.950] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-13 16:23:55.513] [INFO] logs - The Api: login called: 9
+[2017-10-13 16:23:56.027] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-13 16:24:08.360] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-13 16:24:08.524] [INFO] logs - The Api: login called: 10
+[2017-10-13 16:24:08.702] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-13 16:25:05.398] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-13 16:26:22.062] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-13 16:29:03.995] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-13 16:34:39.802] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 16:34:40.004] [INFO] logs - The Api: login called: 1
+[2017-10-13 16:34:40.188] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 16:35:03.283] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 16:35:03.464] [INFO] logs - The Api: login called: 2
+[2017-10-13 16:35:03.650] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 16:46:51.863] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 16:46:52.056] [INFO] logs - The Api: login called: 1
+[2017-10-13 16:46:52.258] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 16:46:59.995] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 16:47:00.167] [INFO] logs - The Api: login called: 2
+[2017-10-13 16:47:00.358] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 16:55:12.017] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 16:55:12.216] [INFO] logs - The Api: login called: 1
+[2017-10-13 16:55:12.409] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 16:55:16.158] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 16:55:16.343] [INFO] logs - The Api: login called: 2
+[2017-10-13 16:55:16.532] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 17:00:06.404] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 17:00:06.595] [INFO] logs - The Api: login called: 1
+[2017-10-13 17:00:06.784] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 17:02:15.946] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 17:02:16.168] [INFO] logs - The Api: login called: 2
+[2017-10-13 17:02:16.352] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 17:04:03.694] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 17:04:03.891] [INFO] logs - The Api: login called: 3
+[2017-10-13 17:04:04.085] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 17:05:10.368] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 17:05:10.540] [INFO] logs - The Api: login called: 3
+[2017-10-13 17:05:21.175] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 17:05:21.343] [INFO] logs - The Api: login called: 4
+[2017-10-13 17:05:21.521] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 17:14:41.997] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 17:14:42.182] [INFO] logs - The Api: login called: 1
+[2017-10-13 17:14:42.362] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 17:18:17.432] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 17:18:17.597] [INFO] logs - The Api: login called: 2
+[2017-10-13 17:18:17.774] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 17:19:52.851] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 17:19:53.016] [INFO] logs - The Api: login called: 3
+[2017-10-13 17:19:54.041] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 17:21:52.094] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 17:21:52.269] [INFO] logs - The Api: login called: 4
+[2017-10-13 17:21:52.463] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 17:22:18.021] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 17:22:18.187] [INFO] logs - The Api: login called: 5
+[2017-10-13 17:22:18.365] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 17:23:41.001] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-13 17:23:41.165] [INFO] logs - The Api: login called: 6
+[2017-10-13 17:23:41.351] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 17:24:15.422] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-13 17:24:15.585] [INFO] logs - The Api: login called: 7
+[2017-10-13 17:24:15.766] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-13 17:24:53.070] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-13 17:24:53.244] [INFO] logs - The Api: login called: 8
+[2017-10-13 17:24:53.458] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-13 17:58:20.188] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-13 17:58:20.355] [INFO] logs - The Api: login called: 9
+[2017-10-13 17:58:20.543] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-13 17:58:40.079] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-13 17:58:40.261] [INFO] logs - The Api: login called: 10
+[2017-10-13 17:58:40.439] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-13 18:05:03.685] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-13 18:05:03.850] [INFO] logs - The Api: login called: 11
+[2017-10-13 18:05:04.058] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-13 18:05:57.471] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-13 18:05:57.639] [INFO] logs - The Api: login called: 12
+[2017-10-13 18:05:57.815] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-13 18:06:31.019] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-13 18:06:31.195] [INFO] logs - The Api: login called: 13
+[2017-10-13 18:06:31.381] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-13 18:08:42.430] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-13 18:08:42.594] [INFO] logs - The Api: login called: 14
+[2017-10-13 18:08:42.781] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-13 18:09:13.325] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 15
+[2017-10-13 18:09:13.487] [INFO] logs - The Api: login called: 15
+[2017-10-13 18:09:13.666] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-13 18:10:46.768] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 16
+[2017-10-13 18:10:46.933] [INFO] logs - The Api: login called: 16
+[2017-10-13 18:10:47.073] [INFO] logs - The Api: login called: 17
+[2017-10-13 18:10:47.112] [INFO] logs - The Api: getAllTest called: 16
+[2017-10-13 18:10:59.167] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 17
+[2017-10-13 18:10:59.333] [INFO] logs - The Api: login called: 18
+[2017-10-13 18:10:59.512] [INFO] logs - The Api: getAllTest called: 17
+[2017-10-13 18:12:13.538] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 18
+[2017-10-13 18:12:13.700] [INFO] logs - The Api: login called: 19
+[2017-10-13 18:12:13.878] [INFO] logs - The Api: getAllTest called: 18
+[2017-10-13 18:12:57.954] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 19
+[2017-10-13 18:12:58.127] [INFO] logs - The Api: login called: 20
+[2017-10-13 18:12:58.305] [INFO] logs - The Api: getAllTest called: 19
+[2017-10-13 18:14:05.407] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 20
+[2017-10-13 18:14:05.585] [INFO] logs - The Api: login called: 21
+[2017-10-13 18:14:05.763] [INFO] logs - The Api: getAllTest called: 20
+[2017-10-13 18:15:05.412] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 21
+[2017-10-13 18:15:05.577] [INFO] logs - The Api: login called: 22
+[2017-10-13 18:15:05.763] [INFO] logs - The Api: getAllTest called: 21
+[2017-10-13 18:15:51.793] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 22
+[2017-10-13 18:15:51.965] [INFO] logs - The Api: login called: 23
+[2017-10-13 18:15:52.145] [INFO] logs - The Api: getAllTest called: 22
+[2017-10-13 18:18:22.800] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-13 18:18:22.989] [INFO] logs - The Api: login called: 1
+[2017-10-13 18:18:23.171] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-13 18:18:33.358] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-13 18:18:33.531] [INFO] logs - The Api: login called: 2
+[2017-10-13 18:18:33.706] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-13 18:19:20.418] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-13 18:19:20.586] [INFO] logs - The Api: login called: 3
+[2017-10-13 18:19:20.767] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-13 18:19:35.328] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-13 18:19:35.496] [INFO] logs - The Api: login called: 4
+[2017-10-13 18:19:35.676] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-13 18:19:51.799] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-13 18:19:51.984] [INFO] logs - The Api: login called: 5
+[2017-10-13 18:19:52.162] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-13 18:20:36.770] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-13 18:20:36.940] [INFO] logs - The Api: login called: 6
+[2017-10-13 18:20:37.119] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-13 18:23:01.927] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-13 18:23:02.095] [INFO] logs - The Api: login called: 7
+[2017-10-13 18:23:02.278] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-13 18:23:27.641] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-13 18:23:27.813] [INFO] logs - The Api: login called: 8
+[2017-10-13 18:23:27.989] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-14 10:01:16.999] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-14 10:01:17.173] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-14 10:01:23.347] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-14 10:01:23.514] [INFO] logs - query error: MongoError: not authorized on papushe to execute command { find: "users", filter: { email: { $eq: "papushe9@gmail.com" } }, projection: {} }
+[2017-10-14 10:01:31.309] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 10:01:31.508] [INFO] logs - The Api: login called: 1
+[2017-10-14 10:01:31.699] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 10:02:13.704] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 10:02:13.915] [INFO] logs - The Api: login called: 2
+[2017-10-14 10:02:14.100] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 10:03:00.422] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 10:03:00.593] [INFO] logs - The Api: login called: 3
+[2017-10-14 10:03:00.777] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 10:10:19.437] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 10:10:19.637] [INFO] logs - The Api: login called: 4
+[2017-10-14 10:10:19.824] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-14 10:12:56.260] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-14 10:12:56.437] [INFO] logs - The Api: login called: 5
+[2017-10-14 10:12:56.624] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-14 10:13:57.417] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-14 10:13:57.589] [INFO] logs - The Api: login called: 6
+[2017-10-14 10:13:57.777] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-14 10:19:14.289] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 10:19:14.482] [INFO] logs - The Api: login called: 1
+[2017-10-14 10:19:14.667] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 10:21:58.076] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 10:21:58.244] [INFO] logs - The Api: login called: 2
+[2017-10-14 10:21:58.430] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 10:35:15.113] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 10:35:15.282] [INFO] logs - The Api: login called: 3
+[2017-10-14 10:35:15.465] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 10:36:51.069] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 10:36:51.237] [INFO] logs - The Api: login called: 4
+[2017-10-14 10:36:51.445] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-14 10:37:20.556] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-14 10:37:21.140] [INFO] logs - The Api: login called: 5
+[2017-10-14 10:37:21.340] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-14 10:38:24.393] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-14 10:38:24.564] [INFO] logs - The Api: login called: 6
+[2017-10-14 10:38:24.745] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-14 10:48:51.483] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 10:48:51.675] [INFO] logs - The Api: login called: 1
+[2017-10-14 10:48:51.872] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 10:51:47.880] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 10:51:48.049] [INFO] logs - The Api: login called: 2
+[2017-10-14 10:51:48.930] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 10:52:29.372] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 10:52:29.635] [INFO] logs - The Api: login called: 3
+[2017-10-14 10:52:29.863] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 10:52:34.455] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 10:52:34.626] [INFO] logs - The Api: login called: 4
+[2017-10-14 10:52:34.810] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-14 10:54:52.298] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 10:54:52.490] [INFO] logs - The Api: login called: 1
+[2017-10-14 10:54:52.687] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 10:56:42.209] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 10:56:42.391] [INFO] logs - The Api: login called: 1
+[2017-10-14 10:56:42.577] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 11:04:00.341] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 11:04:00.652] [INFO] logs - The Api: login called: 2
+[2017-10-14 11:04:00.828] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 11:04:07.795] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 11:04:07.963] [INFO] logs - The Api: login called: 3
+[2017-10-14 11:04:08.140] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 11:08:40.761] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 11:08:49.521] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 11:09:32.580] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 11:09:32.769] [INFO] logs - new toDo: { __v: 0,
+  email: 'papushe9@gmail.com',
+  date: '14-9-2017, 11:09:32',
+  whatToDo: '11111',
+  title: '111',
+  _id: 59e1c63c7ce6884438e50357 } was been saved successfully
+[2017-10-14 11:09:32.769] [INFO] logs - The Api: createNewToDo called: 1
+[2017-10-14 11:09:33.525] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 11:10:48.072] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-14 11:12:19.230] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 11:12:19.401] [INFO] logs - The Api: login called: 1
+[2017-10-14 11:12:19.596] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-14 11:14:58.885] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 11:14:59.057] [INFO] logs - The Api: login called: 2
+[2017-10-14 11:14:59.245] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-14 11:15:04.822] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 11:15:05.013] [INFO] logs - The Api: login called: 3
+[2017-10-14 11:15:05.198] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-14 11:16:51.589] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-14 11:16:51.768] [INFO] logs - The Api: login called: 4
+[2017-10-14 11:16:51.975] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-14 11:17:01.162] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-14 11:17:01.334] [INFO] logs - The Api: login called: 5
+[2017-10-14 11:17:01.518] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-14 11:18:38.940] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-14 11:18:39.110] [INFO] logs - The Api: login called: 6
+[2017-10-14 11:18:39.293] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-14 11:18:41.147] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-14 11:18:41.326] [INFO] logs - The Api: login called: 7
+[2017-10-14 11:18:41.508] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-14 11:25:52.358] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 11:25:52.555] [INFO] logs - The Api: login called: 1
+[2017-10-14 11:25:52.734] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 11:36:38.736] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 11:36:38.928] [INFO] logs - The Api: login called: 1
+[2017-10-14 11:36:39.115] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 11:38:38.094] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 11:38:38.266] [INFO] logs - The Api: login called: 2
+[2017-10-14 11:38:38.449] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 11:39:32.459] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 11:39:32.632] [INFO] logs - The Api: login called: 3
+[2017-10-14 11:39:32.828] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 11:41:10.710] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 11:41:10.881] [INFO] logs - The Api: login called: 4
+[2017-10-14 11:41:11.068] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-14 11:43:02.760] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-14 11:43:02.932] [INFO] logs - The Api: login called: 5
+[2017-10-14 11:43:03.114] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-14 11:43:21.144] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-14 11:43:21.315] [INFO] logs - The Api: login called: 6
+[2017-10-14 11:43:21.506] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-14 11:43:46.646] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-14 11:43:46.824] [INFO] logs - The Api: login called: 7
+[2017-10-14 11:43:47.030] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-14 11:47:34.715] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-14 11:47:34.887] [INFO] logs - The Api: login called: 8
+[2017-10-14 11:47:35.072] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-14 11:49:11.143] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-14 11:49:11.315] [INFO] logs - The Api: login called: 9
+[2017-10-14 11:49:11.519] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-14 11:50:00.646] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-14 11:50:00.819] [INFO] logs - The Api: login called: 10
+[2017-10-14 11:50:01.004] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-14 11:51:08.858] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-14 11:51:09.031] [INFO] logs - The Api: login called: 11
+[2017-10-14 11:51:09.214] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-14 11:51:43.846] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-14 11:51:44.112] [INFO] logs - The Api: login called: 12
+[2017-10-14 11:51:44.312] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-14 11:54:43.966] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-14 11:54:44.139] [INFO] logs - The Api: login called: 13
+[2017-10-14 11:54:44.328] [INFO] logs - The Api: getAllTest called: 13
+[2017-10-14 11:59:12.401] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-14 11:59:12.573] [INFO] logs - The Api: login called: 14
+[2017-10-14 11:59:12.765] [INFO] logs - The Api: getAllTest called: 14
+[2017-10-14 12:00:37.550] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 15
+[2017-10-14 12:00:37.721] [INFO] logs - The Api: login called: 15
+[2017-10-14 12:00:37.906] [INFO] logs - The Api: getAllTest called: 15
+[2017-10-14 12:08:18.725] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 12:08:18.925] [INFO] logs - The Api: login called: 1
+[2017-10-14 12:08:19.120] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 12:08:48.231] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 12:08:48.410] [INFO] logs - The Api: login called: 2
+[2017-10-14 12:08:48.602] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 12:09:42.803] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 12:09:42.981] [INFO] logs - The Api: login called: 3
+[2017-10-14 12:09:43.333] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 12:10:11.866] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 12:10:12.045] [INFO] logs - The Api: login called: 4
+[2017-10-14 12:10:12.233] [INFO] logs - The Api: getAllTest called: 4
+[2017-10-14 12:10:22.421] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 5
+[2017-10-14 12:10:22.604] [INFO] logs - The Api: login called: 5
+[2017-10-14 12:10:22.848] [INFO] logs - The Api: getAllTest called: 5
+[2017-10-14 12:11:21.702] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 6
+[2017-10-14 12:11:21.891] [INFO] logs - The Api: login called: 6
+[2017-10-14 12:11:22.082] [INFO] logs - The Api: getAllTest called: 6
+[2017-10-14 12:12:52.185] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 7
+[2017-10-14 12:12:52.534] [INFO] logs - The Api: login called: 7
+[2017-10-14 12:12:52.722] [INFO] logs - The Api: getAllTest called: 7
+[2017-10-14 12:13:29.456] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 8
+[2017-10-14 12:13:29.636] [INFO] logs - The Api: login called: 8
+[2017-10-14 12:13:29.824] [INFO] logs - The Api: getAllTest called: 8
+[2017-10-14 12:13:48.382] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 9
+[2017-10-14 12:13:48.571] [INFO] logs - The Api: login called: 9
+[2017-10-14 12:13:49.096] [INFO] logs - The Api: getAllTest called: 9
+[2017-10-14 12:14:03.982] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 10
+[2017-10-14 12:14:04.161] [INFO] logs - The Api: login called: 10
+[2017-10-14 12:14:04.348] [INFO] logs - The Api: getAllTest called: 10
+[2017-10-14 12:15:07.465] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 11
+[2017-10-14 12:15:07.657] [INFO] logs - new User: { __v: 0,
+  password: '12345678',
+  userName: 'a',
+  firstName: 'a',
+  lastName: 'a',
+  email: 'papushe9@gmail.com',
+  date: '14-9-2017, 12:15:07',
+  _id: 59e1d59b208d1244e5ebf1f6 } was been created successfully
+[2017-10-14 12:15:07.657] [INFO] logs - The Api: createNewUser called: 1
+[2017-10-14 12:15:07.837] [INFO] logs - The Api: getAllTest called: 11
+[2017-10-14 12:16:58.379] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 12
+[2017-10-14 12:16:58.560] [INFO] logs - new User: { __v: 0,
+  password: '12345678',
+  userName: 'a',
+  firstName: 'a',
+  lastName: 'a',
+  email: 'papushe9@gmail.com',
+  date: '14-9-2017, 12:16:58',
+  _id: 59e1d60a208d1244e5ebf1f7 } was been created successfully
+[2017-10-14 12:16:58.560] [INFO] logs - The Api: createNewUser called: 2
+[2017-10-14 12:17:47.965] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 13
+[2017-10-14 12:17:48.171] [INFO] logs - new User: { __v: 0,
+  password: '12345678',
+  userName: 'b',
+  firstName: 'b',
+  lastName: 'b',
+  email: 'b',
+  date: '14-9-2017, 12:17:47',
+  _id: 59e1d63b208d1244e5ebf1f8 } was been created successfully
+[2017-10-14 12:17:48.171] [INFO] logs - The Api: createNewUser called: 3
+[2017-10-14 12:17:53.400] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 14
+[2017-10-14 12:17:53.579] [INFO] logs - The Api: login called: 11
+[2017-10-14 12:17:53.769] [INFO] logs - The Api: getAllTest called: 12
+[2017-10-14 12:18:19.232] [INFO] logs - The Api: getAllTest called: 13

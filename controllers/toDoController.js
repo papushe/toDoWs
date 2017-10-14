@@ -152,7 +152,6 @@ log4js.configure({
 
         })
     };
-
     getRandomString = (length) => {
     length = 10;
     let text = "";
@@ -184,20 +183,6 @@ console.log(fullDate + ', '+ hour + ':'+ fixTime(minutes,second));
     return fullDate + ', '+ hour + ':'+ fixTime(minutes,second);
 };
 
-// exports.getTracksByMixName = function (req, res) {
-//         MIX.find({mix_name:{$eq:req.params.mixName}},'-_id',
-//             (err,mix) => {
-//                 if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                 TRACK.find({track_id:{$in: mix[0].tracks_id}},
-//                     (err, tracks ) => {
-//                         if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                         cgetTracksByMixName++;
-//                         logger.log('magneto-stream', `The Api: getTracksByMixName called:${cgetTracksByMixName}`);
-//                         res.json(tracks);
-//                 });
-//             });
-//     };
-//
 //     exports.getRandomTracks = function (req, res) {
 //         TRACK.aggregate({ $sample: { size: parseInt(req.params.trackCount) }},
 //             (err, tracks) => {
@@ -208,14 +193,3 @@ console.log(fullDate + ', '+ hour + ':'+ fixTime(minutes,second));
 //             })
 //
 //     };
-//
-//     exports.getRandomMixes = function (req, res) {
-//         MIX.aggregate({ $sample: { size: parseInt(req.params.mixCount) }},
-//             (err, mix) => {
-//                 if (err) logger.log('magneto-stream', `query error: ${err}`);
-//                 cgetRandomMixes++;
-//                 logger.log('magneto-stream', `The Api: getRandomMixes called:${cgetRandomMixes}`);
-//                 res.json(mix);
-//             })
-//     };
-//

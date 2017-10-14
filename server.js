@@ -3,7 +3,9 @@ const   express = require('express'),
         toDo = require('./controllers/toDoController'),
         PORT   = require('./config').PORT,
         bodyParser = require('body-parser'),
-        port = process.env.PORT || PORT;
+        port = process.env.PORT || PORT,
+        http = require('http').Server(app),
+        io = require('socket.io')(http);
 
 app.set('port',port);
 app.use(bodyParser.json()); // parsing application/json
@@ -38,3 +40,26 @@ app.post('/dropToDo/', toDo.dropToDo);
 app.all('*', toDo.errorHandling);
 
 app.listen(port, () => {console.log(`listening on port ${port}`);});
+
+io.on('connection', (socket) => {
+    console.log('user connected');
+
+    socket.on('newConnection', (message, userName) => {
+        console.log('newConnection');
+        io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
+    });
+
+    socket.on('disconnect', (message, userName) => {
+        console.log('disconnect');
+        io.emit('message', {type:'user-disconnect', text:`User disconnect`, userName:userName});
+    });
+
+    socket.on('add-message', (message, userName) => {
+        console.log('new message');
+        io.emit('message', {type:'new-message', text: message, userName:userName});
+    });
+});
+
+http.listen(5000, () => {
+    console.log('started on port 5000');
+});
