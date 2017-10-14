@@ -2458,3 +2458,26 @@
 [2017-10-14 16:21:35.834] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
 [2017-10-14 16:21:36.305] [INFO] logs - The Api: login called: 1
 [2017-10-14 16:21:36.491] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 17:10:37.590] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 17:10:41.351] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 17:10:59.012] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 17:10:59.212] [INFO] logs - The Api: login called: 1
+[2017-10-14 17:10:59.408] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 17:12:45.082] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 17:12:45.261] [INFO] logs - The Api: login called: 2
+[2017-10-14 17:12:46.158] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 17:13:46.428] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 17:13:46.603] [INFO] logs - The Api: login called: 3
+[2017-10-14 17:13:46.791] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 17:15:22.319] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-14 17:15:22.505] [INFO] logs - The Api: login called: 1
+[2017-10-14 17:15:22.686] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-14 17:16:38.639] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-14 17:16:38.810] [INFO] logs - The Api: login called: 2
+[2017-10-14 17:16:38.992] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-14 17:17:15.316] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-14 17:17:15.487] [INFO] logs - The Api: login called: 3
+[2017-10-14 17:17:15.664] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-14 17:20:40.777] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 4
+[2017-10-14 17:20:40.944] [INFO] logs - The Api: login called: 4
+[2017-10-14 17:20:41.126] [INFO] logs - The Api: getAllTest called: 4

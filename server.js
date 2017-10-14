@@ -61,10 +61,6 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-
-// http.listen(port, () => {
-//     console.log('started on port 5000');
-// });
 http.listen(portChat, () => {
-    console.log('started on port 5000');
+    console.log(`started on port ${portChat}`);
 });
