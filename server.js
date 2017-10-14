@@ -60,7 +60,7 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-http.listen(portChat, () => {
+http.listen(5000, () => {
     console.log(`started on port ${portChat}`);
 });
 
