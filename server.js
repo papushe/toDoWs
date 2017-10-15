@@ -8,7 +8,7 @@ const   express = require('express'),
         http = require('http').Server(app),
         io = require('socket.io')(http);
 
-app.set('port',port);
+// app.set('port',port);
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
