@@ -2553,3 +2553,5 @@
   _id: 59e2feec2185805728d7ee1e } was been saved successfully
 [2017-10-15 09:23:40.381] [INFO] logs - The Api: createNewToDo called: 1
 [2017-10-15 09:23:43.846] [INFO] logs - The Api: getAllTest called: 3
+[2017-10-15 19:26:14.604] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-15 19:26:15.098] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
