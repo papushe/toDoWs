@@ -44,15 +44,18 @@ app.all('*', toDo.errorHandling);
 app.listen(port, () => {console.log(`listening on port ${port}`);});
 
 io.on('connection', (socket) => {
-    console.log('user connected');
 
-    socket.on('newConnection', (message, userName, port) => {
+    console.log('user connected');
+    console.log(socket.handshake.headers.host);
+
+    io.emit('port', {port: socket.handshake.headers.host})
+
+    socket.on('newConnection', (message, userName) => {
         console.log('newConnection');
-        io.emit('message', {type:'subscribe', text:'New user, ', userName:userName, port:portChat});
+        io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
     });
 
     socket.on('disconnect', (message, userName) => {
-        console.log('disconnect');
         io.emit('message', {type:'user-disconnect', text:`User disconnect`, userName:userName});
     });
 
@@ -61,7 +64,7 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-http.listen(port, () => {
+http.listen(5000, () => {
     console.log(`started on port ${portChat}`);
 });
 
