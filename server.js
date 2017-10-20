@@ -41,7 +41,7 @@ app.post('/dropToDo/', toDo.dropToDo);
 
 app.all('*', toDo.errorHandling);
 
-app.listen(4300, () => {console.log(`listening on port ${port}`);});
+app.listen(port, () => {console.log(`listening on port ${port}`);});
 
 io.on('connection', (socket) => {
     console.log('user connected');
@@ -61,7 +61,7 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-http.listen(4300, () => {
+http.listen(port, () => {
     console.log(`started on port ${portChat}`);
 });
 
