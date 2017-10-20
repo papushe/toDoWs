@@ -2555,3 +2555,6 @@
 [2017-10-15 09:23:43.846] [INFO] logs - The Api: getAllTest called: 3
 [2017-10-15 19:26:14.604] [INFO] logs - The Api: getAllTest called: 1
 [2017-10-15 19:26:15.098] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-20 10:02:00.203] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-20 10:02:00.397] [INFO] logs - The Api: login called: 1
+[2017-10-20 10:02:00.585] [INFO] logs - The Api: getAllTest called: 1
