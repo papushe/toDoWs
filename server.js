@@ -65,7 +65,7 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-http.listen(8778, () => {
+http.listen(portChat, () => {
     toDo.getPortNumber(portChat);
     console.log(`started on port ${portChat}`);
 });
