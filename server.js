@@ -56,6 +56,7 @@ io.on('connection', (socket) => {
     });
 
     socket.on('disconnect', (message, userName) => {
+        console.log('new disconnecting');
         io.emit('message', {type:'user-disconnect', text:`User disconnect`, userName:userName});
     });
 
