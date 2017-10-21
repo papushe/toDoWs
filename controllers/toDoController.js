@@ -127,7 +127,7 @@ exports.getPortNumber = (port) =>{
                     cLogin++;
                     logger.info(`The Api: login called: ${cLogin}`);
                     data[0].__v = portNumber;
-                    console.log('the port is: ' +data[0].port);
+
                     res.json(data);
                 } else {
                     logger.info(`The Api: login called: ${cLogin}`);
