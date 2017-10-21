@@ -6,7 +6,8 @@ let TODO = require('../models/todo'),
     cCreateNewUser = 0,
     cDropToDo = 0,
     cChangePassword = 0,
-    cErrorHandling = 0;
+    cErrorHandling = 0,
+    portNumber = '';
 
 
 const   log4js = require('log4js'),
@@ -22,6 +23,7 @@ log4js.configure({
         logger.info(`error 404 - not found (Wrong input or Wrong url, called: ${cErrorHandling}`);
         res.json({"error": "404 - not found (Wrong input or Wrong url)"});
     };
+
     exports.createNewUser =  (req, res) => {
         let newUser = new USER({
             password: req.body.password,
@@ -108,6 +110,10 @@ log4js.configure({
                 }
         })
     };
+exports.getPortNumber = (port) =>{
+    portNumber = port;
+
+}
     exports.login = (req, res) => {
         USER.find({email:{$eq:req.body.email}},
             (err, data) => {
@@ -120,6 +126,8 @@ log4js.configure({
                 if(data[0].password == req.body.password){
                     cLogin++;
                     logger.info(`The Api: login called: ${cLogin}`);
+                    data[0].__v = portNumber;
+                    console.log('the port is: ' +data[0].port);
                     res.json(data);
                 } else {
                     logger.info(`The Api: login called: ${cLogin}`);
