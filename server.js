@@ -8,15 +8,14 @@ const   express = require('express'),
         http = require('http').Server(app),
         io = require('socket.io')(http);
 
-// app.set('port',port);
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
 app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
 app.use(
     (req,res,next) => {
-        // res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
+        res.header("Access-Control-Allow-Origin", "*");
+        // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
         res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
         res.header('Access-Control-Allow-Credentials', 'true');
         next();
@@ -46,12 +45,13 @@ app.listen(port, () => {console.log(`listening on port ${port}`);});
 io.on('connection', (socket) => {
 
     console.log('user connected');
-    console.log(socket.handshake.headers.host);
+    // console.log(socket);
 
-    io.emit('port', {port: socket.handshake.headers.host})
+    // io.emit('port', {port: socket})
 
     socket.on('newConnection', (message, userName) => {
         console.log('newConnection');
+        console.log(socket);
         io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
     });
 
