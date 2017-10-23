@@ -14,8 +14,8 @@ app.use('/', express.static('./public'));
 app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
 app.use(
     (req,res,next) => {
-        res.header("Access-Control-Allow-Origin", "*");
-        // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
+        // res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
         res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
         res.header('Access-Control-Allow-Credentials', 'true');
         next();
@@ -51,7 +51,7 @@ io.on('connection', (socket) => {
 
     socket.on('newConnection', (message, userName) => {
         console.log('newConnection');
-        console.log(socket);
+        // console.log(socket);
         io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
     });
 

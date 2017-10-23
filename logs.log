@@ -2751,3 +2751,22 @@
 [2017-10-22 07:08:33.139] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
 [2017-10-22 07:08:33.427] [INFO] logs - The Api: login called: 1
 [2017-10-22 07:08:33.733] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-22 16:02:27.162] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-22 16:02:41.178] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-22 16:02:41.332] [INFO] logs - The Api: login called: 1
+[2017-10-22 16:02:41.500] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-22 16:09:03.321] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-22 16:09:03.470] [INFO] logs - The Api: login called: 2
+[2017-10-22 16:09:03.634] [INFO] logs - The Api: getAllTest called: 2
+[2017-10-23 17:55:27.262] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-23 17:55:27.307] [INFO] logs - query error: MongoError: Topology was destroyed
+[2017-10-23 17:55:40.147] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-23 17:55:40.152] [INFO] logs - query error: MongoError: Topology was destroyed
+[2017-10-23 17:55:41.573] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 3
+[2017-10-23 17:55:41.577] [INFO] logs - query error: MongoError: Topology was destroyed
+[2017-10-23 17:55:55.234] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 1
+[2017-10-23 17:55:55.426] [INFO] logs - The Api: login called: 1
+[2017-10-23 17:55:55.616] [INFO] logs - The Api: getAllTest called: 1
+[2017-10-23 17:57:49.066] [INFO] logs - error 404 - not found (Wrong input or Wrong url, called: 2
+[2017-10-23 17:57:49.245] [INFO] logs - The Api: login called: 2
+[2017-10-23 17:57:49.437] [INFO] logs - The Api: getAllTest called: 2
