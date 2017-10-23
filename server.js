@@ -45,13 +45,9 @@ app.listen(port, () => {console.log(`listening on port ${port}`);});
 io.on('connection', (socket) => {
 
     console.log('user connected');
-    // console.log(socket);
-
-    // io.emit('port', {port: socket})
 
     socket.on('newConnection', (message, userName) => {
         console.log('newConnection');
-        // console.log(socket);
         io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
     });
 
@@ -65,11 +61,9 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-http.listen(5000, () => {
+io.set('transports', ['xhr-polling']);
+io.set('polling duration', 10);
+io.listen(5000, () => {
     toDo.getPortNumber(5000);
     console.log(`started on port ${portChat}`);
 });
-
-// res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
-
-//dont forget Mongoose.prototype.connect
