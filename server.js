@@ -4,7 +4,7 @@ const   express = require('express'),
         PORT   = require('./config').PORT,
         bodyParser = require('body-parser'),
         port = process.env.PORT || PORT,
-        portChat = process.env.PORT || 5000,
+        portChat = 5000 || process.env.PORT,
         http = require('http').Server(app),
         io = require('socket.io')(http);
 
@@ -61,9 +61,9 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-io.set('transports', ['xhr-polling']);
-io.set('polling duration', 10);
-io.listen(5000, () => {
-    toDo.getPortNumber(5000);
+// io.set('transports', ['xhr-polling']);
+// io.set('polling duration', 10);
+http.listen(portChat, () => {
+    toDo.getPortNumber(portChat);
     console.log(`started on port ${portChat}`);
 });
