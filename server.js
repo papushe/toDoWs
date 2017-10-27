@@ -3,40 +3,23 @@ const   express = require('express'),
         toDo = require('./controllers/toDoController'),
         PORT   = require('./config').PORT,
         bodyParser = require('body-parser'),
-        port = process.env.PORT || PORT,
+        port = PORT ||process.env.PORT,
         portChat = process.env.PORT || 5000,
         http = require('http').Server(app),
         io = require('socket.io')(http);
 
-var allowCrossDomain = function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
-    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With');
-
-    // intercept OPTIONS method
-    if ('OPTIONS' == req.method) {
-        res.send(200);
-    }
-    else {
-        next();
-    }
-};
-app.use(allowCrossDomain);
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
 app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
-// app.use(
-//     (req,res,next) => {
-//         res.header("Access-Control-Allow-Origin", "*");
-//         // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
-//         // res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//         res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization, Content-Length, X-Requested-With');
-//
-//         res.header('Access-Control-Allow-Credentials', 'true');
-//         next();
-//     });
-
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", '*');
+    // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
+    res.header("Access-Control-Allow-Credentials", true);
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
+    res.header("Access-Control-Allow-Headers", `Content-Length, Authorization, Origin, X-Requested-With, Content-Type, Accept, application/json`);
+    next();
+});
 
 /* All routes  */
 app.get('/', (req,res) =>{
@@ -57,7 +40,7 @@ app.post('/dropToDo/', toDo.dropToDo);
 
 app.all('*', toDo.errorHandling);
 
-app.listen(4300, () => {console.log(`listening on port ${4300}`);});
+app.listen(PORT, () => {console.log(`listening on port ${PORT}`);});
 
 io.on('connection', (socket) => {
 
