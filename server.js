@@ -5,16 +5,23 @@ const   express = require('express'),
         bodyParser = require('body-parser'),
         port = PORT ||process.env.PORT,
         portChat = process.env.PORT || 5000,
-        http = require('http').Server(app),
-        io = require('socket.io')(http);
+        http = require('http').Server(app);
+        // io = require('socket.io')(http);
 
+
+var io = require('socket.io')(http, {
+    log: false,
+    agent: false,
+    origins: '*:*',
+    transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling']
+});
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
 app.use('/assets', express.static(`${__dirname}/public`)); // public as assets
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", '*');
-    // res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
+    // res.header("Access-Control-Allow-Origin", '*');
+    res.header("Access-Control-Allow-Origin", "http://www.papushe.com");
     res.header("Access-Control-Allow-Credentials", true);
     res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE,OPTIONS');
     res.header("Access-Control-Allow-Headers", `Content-Length, Authorization, Origin, X-Requested-With, Content-Type, Accept, application/json`);
@@ -61,10 +68,7 @@ io.on('connection', (socket) => {
         io.emit('message', {type:'new-message', text: message, userName:userName});
     });
 });
-// io.configure(function () {
-//     io.set("transports", ["xhr-polling"]);
-//     io.set("polling duration", 10);
-// });
+
 http.listen(portChat, () => {
     toDo.getPortNumber(portChat);
     console.log(`started on port ${portChat}`);
