@@ -2,19 +2,21 @@ const   express = require('express'),
         app = express(),
         toDo = require('./controllers/toDoController'),
         PORT   = require('./config').PORT,
-        bodyParser = require('body-parser'),
-        port = PORT ||process.env.PORT,
+        port = PORT || process.env.PORT,
         portChat = process.env.PORT || 5000,
+        bodyParser = require('body-parser'),
         http = require('http').Server(app);
         // io = require('socket.io')(http);
+var     users = [],
+        connections = [],
+        messages = [],
+        io = require('socket.io')(http, {
+            log: false,
+            agent: false,
+            origins: '*:*',
+            transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling']
+        });
 
-
-var io = require('socket.io')(http, {
-    log: false,
-    agent: false,
-    origins: '*:*',
-    transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling']
-});
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
@@ -39,7 +41,8 @@ app.post('/changePassword/', toDo.changePassword);
 
 app.post('/createNewUser/', toDo.createNewUser);
 
-app.get('/getAllToDo/:email', toDo.getAllToDo);
+// app.get('/getAllToDo/:email', toDo.getAllToDo);
+app.post('/getAllToDo/', toDo.getAllToDo);
 
 app.post('/createNewToDo/', toDo.createNewToDo);
 
@@ -47,25 +50,38 @@ app.post('/dropToDo/', toDo.dropToDo);
 
 app.all('*', toDo.errorHandling);
 
-app.listen(PORT, () => {console.log(`listening on port ${PORT}`);});
+app.listen(port, () => {console.log(`listening on port ${port}`);});
 
-io.on('connection', (socket) => {
+io.sockets.on('connection', (socket) => {
 
-    console.log('user connected');
+    socket.on('new-connection', (data, callback) => {
 
-    socket.on('newConnection', (message, userName) => {
-        console.log('newConnection');
-        io.emit('message', {type:'subscribe', text:'New user, ', userName:userName});
+        connections.push(socket);
+        console.log('Connected: %s sockets connected', connections.length);
+
+        socket.username = callback;
+        users.push(socket.username);
+        console.log(`New-connection ${socket.username}`);
+        io.sockets.emit('message', {type:'subscribe', text:'Connected', userName:callback});
+
     });
 
-    socket.on('disconnect', (message, userName) => {
-        console.log('new disconnecting');
-        io.emit('message', {type:'user-disconnect', text:`User disconnect`, userName:userName});
+    socket.on('new-message', (message, callback) => {
+        messages.push(`${callback} - New message: ${message}`);
+        io.sockets.emit('message', {type:'new-message', text: message, userName:callback});
     });
 
-    socket.on('add-message', (message, userName) => {
-        console.log('new message');
-        io.emit('message', {type:'new-message', text: message, userName:userName});
+    socket.on('disconnect', () => {
+
+        io.sockets.emit('message', {type:'user-disconnect', text:`Disconnected`, userName:socket.username});
+
+
+
+        console.log(`${socket.username} - is disconnected`);
+
+        users.splice(users.indexOf(socket.username),1);
+        connections.splice(connections.indexOf(socket), 1);
+        console.log(`Disconnected: ${connections.length} sockets connected ${users}`);
     });
 });
 

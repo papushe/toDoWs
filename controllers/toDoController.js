@@ -68,7 +68,7 @@ log4js.configure({
     );
 };
     exports.getAllToDo = (req, res) => {
-        TODO.find({email:{$eq:req.params.email}},
+        TODO.find({email:{$eq:req.body.email}},
             (err, data) => {
                 if (err) {
                     logger.info(`query error: ${err}`);
