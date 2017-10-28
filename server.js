@@ -5,7 +5,8 @@ const   express = require('express'),
         port = PORT || process.env.PORT,
         portChat = process.env.PORT || 5000,
         bodyParser = require('body-parser'),
-        http = require('http').Server(app);
+        http = require('http').Server(app),
+        cors = require('cors');
         // io = require('socket.io')(http);
 var     users = [],
         connections = [],
@@ -17,6 +18,11 @@ var     users = [],
             transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling']
         });
 
+var corsOptions = {
+    origin: '*',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+app.use(cors(corsOptions));
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
 app.use('/', express.static('./public'));
