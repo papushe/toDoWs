@@ -19,7 +19,7 @@ var     users = [],
         });
 
 var corsOptions = {
-    origin: '*',
+    origin: "*",
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 app.use(cors(corsOptions));
@@ -71,6 +71,16 @@ io.sockets.on('connection', (socket) => {
 
     });
 
+    socket.on('connect_failed', function (data) {
+        console.log('connect_failed');
+        io.sockets.emit('connect_failed', {type:'TransportError', text:'TransportError', data:data});
+    });
+
+    socket.on('connect_error', function (data) {
+        console.log('connect_error');
+        io.sockets.emit('connect_error', {type:'connect_error', text:'connect_error', data:data});
+    });
+
     socket.on('new-message', (message, callback) => {
         messages.push(`${callback} - New message: ${message}`);
         io.sockets.emit('message', {type:'new-message', text: message, userName:callback});
@@ -88,6 +98,7 @@ io.sockets.on('connection', (socket) => {
         connections.splice(connections.indexOf(socket), 1);
         console.log(`Disconnected: ${connections.length} sockets connected ${users}`);
     });
+
 });
 
 http.listen(portChat, () => {
