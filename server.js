@@ -15,9 +15,10 @@ var     users = [],
             log: false,
             agent: false,
             origins: '*:*',
-            transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling']
+            transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling'],
+            pollingDuration: 10,
+            path: '/socket.io'
         });
-
 var corsOptions = {
     origin: "*",
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
@@ -57,6 +58,8 @@ app.all('*', toDo.errorHandling);
 
 app.listen(port, () => {console.log(`listening on port ${port}`);});
 
+
+// http.set('transports',['xhr-polling']);
 io.sockets.on('connection', (socket) => {
 
     socket.on('new-connection', (data, callback) => {

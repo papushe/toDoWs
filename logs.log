@@ -3388,3 +3388,10 @@
 [2017-11-03 15:41:40.371] [INFO] logs - The Api: getAllTest called: 1
 [2017-11-03 15:43:12.938] [INFO] logs - The Api: login called: 2
 [2017-11-03 15:43:13.138] [INFO] logs - The Api: getAllTest called: 2
+[2017-11-03 16:08:11.369] [INFO] logs - The Api: login called: 1
+[2017-11-03 16:08:11.567] [INFO] logs - The Api: getAllTest called: 1
+[2017-11-03 16:27:00.244] [INFO] logs - The Api: login called: 1
+[2017-11-03 16:27:00.484] [INFO] logs - The Api: getAllTest called: 1
+[2017-11-03 16:28:24.252] [INFO] logs - The Api: login called: 0
+[2017-11-03 16:28:31.386] [INFO] logs - The Api: login called: 1
+[2017-11-03 16:28:31.582] [INFO] logs - The Api: getAllTest called: 1
