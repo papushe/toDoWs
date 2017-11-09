@@ -7,22 +7,24 @@ const   express = require('express'),
         bodyParser = require('body-parser'),
         http = require('http').Server(app),
         cors = require('cors');
+        // cookieSession = require('cookie-session');
         // io = require('socket.io')(http);
-var     users = [],
+let     users = [],
         connections = [],
         messages = [],
         io = require('socket.io')(http, {
             log: false,
             agent: false,
             origins: '*:*',
-            transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling'],
+            transports: ['websocket', 'htmlfile', 'xhr-polling', 'jsonp-polling', 'polling', 'xdr-streaming', 'xdr-polling', 'xhr-polling', 'xdr-streaming','iframe-xhr-polling', 'jsonp-polling' ],
             pollingDuration: 10,
             path: '/socket.io'
-        });
-var corsOptions = {
-    origin: "*",
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-};
+        }),
+        corsOptions = {
+            origin: "*",
+            optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+        };
+
 app.use(cors(corsOptions));
 app.use(bodyParser.json()); // parsing application/json
 app.use(bodyParser.urlencoded({extended:true})); // parsing application/x-www-form-urlencoded
@@ -35,7 +37,6 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Headers", "Content-Length, Authorization, Origin, X-Requested-With, Content-Type, Accept, application/json");
     next();
 });
-
 /* All routes  */
 app.get('/', (req,res) =>{
     res.sendFile(`${__dirname}/index.html`);
@@ -44,6 +45,8 @@ app.get('/', (req,res) =>{
 app.post('/login/', toDo.login);
 
 app.post('/changePassword/', toDo.changePassword);
+
+app.post('/updateAllToDo/', toDo.updateAllToDo);
 
 app.post('/createNewUser/', toDo.createNewUser);
 
@@ -54,12 +57,12 @@ app.post('/createNewToDo/', toDo.createNewToDo);
 
 app.post('/dropToDo/', toDo.dropToDo);
 
+// app.post('/sendmail/', toDo.sendmail);
+
 app.all('*', toDo.errorHandling);
 
 app.listen(port, () => {console.log(`listening on port ${port}`);});
 
-
-// http.set('transports',['xhr-polling']);
 io.sockets.on('connection', (socket) => {
 
     socket.on('new-connection', (data, callback) => {
@@ -92,8 +95,6 @@ io.sockets.on('connection', (socket) => {
     socket.on('disconnect', () => {
 
         io.sockets.emit('message', {type:'user-disconnect', text:`Disconnected`, userName:socket.username});
-
-
 
         console.log(`${socket.username} - is disconnected`);
 

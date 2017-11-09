@@ -1,5 +1,6 @@
 let TODO = require('../models/todo'),
-    USER = require('../models/user'),
+    USER = require('../models/user');
+    // email   = require('emailjs/email');
     cGetAllTodo = 0,
     cLogin = 0,
     cCreateNewToDo = 0,
@@ -7,6 +8,7 @@ let TODO = require('../models/todo'),
     cDropToDo = 0,
     cChangePassword = 0,
     cErrorHandling = 0,
+    cUpdateToD = 0,
     portNumber = '';
 
 
@@ -110,10 +112,37 @@ log4js.configure({
                 }
         })
     };
-exports.getPortNumber = (port) =>{
-    portNumber = port;
 
-}
+    exports.updateAllToDo = (req, res) => {
+        TODO.find({_id:{$eq:req.body._id}},
+            (err, data) => {
+                if (err) {
+                    logger.info(`query error: ${err}`);
+                    console.log(err);
+                    res.json(err);
+                    return;
+                }
+                data[0].set({  title : req.body.title,
+                            whatToDo:req.body.whatToDo,
+                            date:createNewDate()});
+                data[0].save(
+                    (err, data) => {
+                        if (err) {
+                            logger.info(`something went wrong - updateToDo was not saved properly!: ${err}`);
+                            res.json(err);
+                        }
+                        res.json(data);
+                        cUpdateToD++;
+                        logger.info(`The Api: updateAllToDo called: ${cUpdateToD}`);
+                    }
+                );
+            })
+    };
+
+    exports.getPortNumber = (port) => {
+        portNumber = port;
+
+    };
     exports.login = (req, res) => {
         USER.find({email:{$eq:req.body.email}},
             (err, data) => {
@@ -160,6 +189,37 @@ exports.getPortNumber = (port) =>{
 
         })
     };
+
+// exports.sendmail = (req, res)=> {
+//
+//     let emailServer  = email.server.connect({
+//         user:    "papushe",
+//         password:"shely61333189188",
+//         host:    "smtp.papushe@gmail.com",
+//         ssl:     true
+//     });
+//
+// // send the message and get a callback with an error or details of the message that was sent
+//     emailServer.send({
+//         text:    "You have signed up",
+//         from:    "papushe@gmail.com",
+//         to:      req.body.email,
+//         subject: "Welcome to my app",
+//         attachment:
+//             [
+//                 {data:"<html>i <i>hope</i> this works!</html>", alternative:true},
+//                 // {path:"pathtofile.zip", type:"application/zip", name:"renamed.zip"}
+//             ]
+//     }, function(err, message) {
+//         if(err)
+//             console.log(err);
+//         else
+//             res.json({success: true, msg: 'sent'});
+//     });
+//
+// };
+
+
     getRandomString = (length) => {
     length = 10;
     let text = "";

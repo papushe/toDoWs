@@ -7,7 +7,7 @@ const mongoose = require('mongoose'),
         firstName: String,
         lastName: String,
         email: String,
-        date: String
+        date: String,
     },{strict: true});
 
 let User = mongoose.model('User', user);
